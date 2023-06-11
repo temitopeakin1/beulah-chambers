@@ -1,0 +1,18 @@
+{
+    "name": "hp/beulahchambers",
+    "description": "Law firm",
+    "require": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hp\\Beulahchambers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akinmegha Temitope Samuel",
+            "email": "48892912+temitopeakin1@users.noreply.github.com"
+        }
+    ]
+}
