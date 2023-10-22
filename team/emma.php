@@ -1,10 +1,10 @@
-<?php include('../path.php'); ?>
+<?php include '../path.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Labour-Law | Beulah Chambers</title>
+    <title>Abiodun-Fadipe | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -65,11 +65,10 @@
             </ul>
           </li>
                     <li class="nav__item"><a href="../articles.php" class="nav__link">Articles</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Team <i class="fas fa-chevron-down" style="font-size: 0.8em" ;></i>
-                    </a>
-                  <ul>
+                    <li class="nav__item"><a href="#" class="nav__link">Team <i class="fas fa-chevron-down" style="font-size: 0.8em" ;></i></a>
+                    <ul>
                     <li><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></li>
-                    <li><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></li>
+                    <!-- <li><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></li> -->
                     <li><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></li>
                     <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
                     <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
@@ -85,54 +84,85 @@
         </nav>
     </header>
 
-  <!-- first section arbitration --> 
-  <section class="link ptb--200" id="link">
-    <div class="text"><a href="../index.php">Home</a> <i class="fa fa-long-arrow-right"></i> <a href="#">Practice-Areas</a> <i class="fa fa-long-arrow-right"></i> Labour Law</div>
-</section>
-<!-- End : first-section arbitration -->
+    <section class="link" id="link">
+    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  Our Team</div>
+    </section>
 
- <section class="second-section_arbitration ptb--100" id="second-section_arbitration">
-  <div class="container-fluid white section">
+
+       <section class="profile ptb--100" id="profile">
+        <div class="container-fluid white section" id="debt">
             <div class="row">
               <div class="col">
                 <div class="container">
-              <div class="left__arbitration">
-                <h1 class="title">Practice Areas</h1>
-                <h2><a href="../practice-areas/labour-law.php" class="nav__link active">Labour Law</a></h2>
-                <h2><a href="../practice-areas/human-rights.php">Human Rights</a></h2>
-                <h2><a href="../practice-areas/commercial-law.php">Commercial Law</a></h2>
-                <h2><a href="../practice-areas/arbitration.php">Arbitration</a></h2>
-                <h2><a href="../practice-areas/intellectual-property.php">Intellectual Property Law</a></h2>
-                <h2><a href="../practice-areas/family-law.php">Family Law </a></h2>
-                <h2><a href="../practice-areas/election-petitions.php">Election Petitions </a></h2>
-                <h2><a href="../practice-areas/criminal-law.php">Criminal Law</a></h2>
-                <h2><a href="../practice-areas/banking-and-debt-recovery.php">Banking & Debt Recovery </a></h2>
+                  <div class="row">
+                    <div class="profile_law">
+                      <h1 class="title">Legal Experts Profile</h1>
+                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></h2>
+                      <h3>Managing/Principal Partner</h3>
+                      <!-- <hr class="horizontal">
+                      <h2><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></h2>
+                      <h3>Head of Chambers</h3> -->
+                      <hr class="horizontal">
+                      <h2><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></h2>
+                      <h3>Head, Litigation</h3>
+                      <hr class="horizontal">
+                      <h2><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></h2>
+                      <h3>Associate Counsel</h3>
+                      <hr class="horizontal">
+                      <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
+                      <h3>Counsel</h3>
+                      <hr class="horizontal">
+                      <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
+                      <h3>Consultant, Int'l Labour Relations and Law</h3>
+                      <hr class="horizontal">
+                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></h2>
+                      <h3>Consultant, Int'l Human Rights Law</h3>
+                      <hr class="horizontal">
+                      </div>
+                      <div class="profile_details_fadipe">
+                      <img src="../assets/images/emma.png">
+                      <div class="team-profile" id="team-profile">
+                      <h2 class="name">Emmanuel Ubah Esq.</h2>
+                        <h3 class="role">Counsel</h3>
+                        <h3 class="email"><a href="mailto: info@beulahchambers.org">info@beulahchambers.org</a></h3>
+                        <h3 class="phone">xxx-xxx-xxxx</h3>
+                      <div class="socials">
+                      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                      <h2 class="practice">Area of Practice</h2>
+                          <h3>Intellectual Property Law</h3>
+                            <h3>Human Rights</h3>
+                              <h3>Company Law and Taxation</h3>
+                                     <h3>Property Law</h3>
+                        </div>
+                    </div>
+                    <div class="profiler_fadipe">
+                     <p><strong>Emmanuel Ubah, Esq</strong> holds a Bachelor of Laws, (LL B Hons)  from University of Ilorin before he proceeded to the Nigerian Law School for his Bar Qualifying Examination (B.L) Yenagoa Campus
+                        and was later called to the Nigerian Bar in December 2022. <br>
+                        He had Professional Post- Graduate Diploma (PGD) in Peace, Security Studies and Criminology from the Institute of Global Peace
+                        and Conflict Management in  2023. He did his National Youths Service in the Northern Nigeria (Gombe). He has flair for legal research and advocacy. Over the years he has distinguished 
+                        himself in commitment to effective leadership and administration, good team spirit and diligence in various organisations.
+                        He joined K.H Bamiwola & Co in October 2023 as a Counsel.<br>
+                        He is a Member of Nigerian Bar Association, a Member,  Institute of ADR Registrars and an Associate Member of Institute of Global Peace and Conflict Management.
+                        </p>
+                    </div>
+                 </div>
+                </div>
               </div>
-              <div class="right__arbitration">
-                <img src="../assets/images/lab.jpeg">
-                <h1>Labour Law</h1>
-                <p>
-                  <strong>Labour Law</strong> is a branch of law that deals with the relationship between employers, employees, and labour unions. 
-                  As Nigeria's sought out Law Firm, KH Bamiwola & Co primary goal is to protect the rights of workers and to establish a framework for fair and equitable treatment in the workplace.
-                  This includes regulations and guidelines regarding wages, hours of work, safety and health standards, and the right to form and join unions.
-                  At Beulah Chamber with Clarity we prepare out the legal requirements for employment contracts, including the terms and conditions of employment, and the rights and responsibilities
-                  of both employers and employees.
-                  We also engage in issues related to issues such as workplace discrimination and harassment, workplace safety and health, and workers' compensation. 
-                  At <em><strong>KH Bamiwola & Co </strong></em>we ensure that employees are treated fairly and that their rights are protected. 
-                </p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </section>
 
-  <section class="contact ptb--100">
-    <button type="btn" class="btn"><a href="../contact.php">Get a Free Consultation Today <i class="fa fa-envelope-open-o"></i></a></button>
-  </section>
+        <section class="legal__help ptb--10">
+        <i class="fas fa-briefcase"></i><h2 class="briefcase_help">Need Help with with Legal Issues?</h2>
+         <button class="botton"><a href="../contact.php">CONTACT US</button></a>
+      </section>
+       
 
 <!-- Begin: footer -->
-   <div class="footer">
+<div class="footer">
     <div class="footer-content">
      <div class="footer-section about">
          <h2>Beulah Chambers</h2>
@@ -150,11 +180,11 @@
          <ul>
              <li><a href="../index.php">Home</a></li>
              <li><a href="../about.php">About</a></li>
-             <li><a href="/practice-areas/labour-law.php">Labour Law</a></li>
-             <li><a href="/practice-areas/commercial-law.php">Commercial Law</a></li>
-             <li><a href="/practice-areas/intellectual-property-law.php">Intellectual Property Law</a></li>
-             <li><a href="/practice-areas/family-law.php">Family Law</a></li>
-             <li><a href="/practice-areas/arbitration.php">Arbitration</a></li>
+             <li><a href="../practice-areas/labour-law.php">Labour Law</a></li>
+             <li><a href="../practice-areas/commercial-law.php">Commercial Law</a></li>
+             <li><a href="../practice-areas/intellectual-property.php">Intellectual Property Law</a></li>
+             <li><a href="../practice-areas/family-law.php">Family Law</a></li>
+             <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
              <li><a href="../articles.php">Articles</a></li>
          </ul>
      </div> 
@@ -177,7 +207,6 @@
 <button id="btnScrollToTop">
   <i class="material-icons">arrow_upward</i>
 </button>
-
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/scroll.js"></script>

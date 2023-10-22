@@ -123,21 +123,7 @@
             <button class="bttn"><a href="team/kehinde-bamiwola.php">View Profile</a></button>
           </div>
         </div>
-        <!-- <div class="team-card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-  
-            <div class="card-image">
-              <img src="assets/images/joya.png" alt="" class="card-img">
-            </div>
-          </div>
-  
-          <div class="card-content">
-            <h2 class="name">Joy A. Ofuzor</h2>
-            <p class="description">Head of Chambers</p>
-            <button class="bttn"><a href="team/joy-ofuzor.php">View Profile</a></button>
-          </div>
-        </div> -->
+    
         <div class="team-card swiper-slide">
           <div class="image-content">
             <span class="overlay"></span>
@@ -168,6 +154,21 @@
             <p class="description">Associate Counsel</p>
   
             <button class="bttn"><a href="team/olamijulo.php">View Profile</a></button>
+          </div>
+        </div>
+        <div class="team-card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+  
+            <div class="card-image">
+              <img src="assets/images/emma.png" alt="" class="card-img">
+            </div>
+          </div>
+  
+          <div class="card-content">
+            <h2 class="name">Emmanuel Ubah</h2>
+            <p class="description">Counsel</p>
+            <button class="bttn"><a href="team/emma.php">View Profile</a></button>
           </div>
         </div>
         <div class="team-card swiper-slide">

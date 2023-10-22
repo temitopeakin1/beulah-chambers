@@ -1,6 +1,5 @@
 <?php include 'path.php'; ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +17,6 @@
       src="https://code.jquery.com/jquery-3.5.1.min.js"
       type="text/javascript"
     ></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script>
         ScrollReveal({ reset: true });
     </script>
