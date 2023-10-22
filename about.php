@@ -166,7 +166,7 @@
           </div>
   
           <div class="card-content">
-            <h2 class="name">Emmanuel Ubah</h2>
+            <h2 class="name">Emmanuel Ubah Esq.</h2>
             <p class="description">Counsel</p>
             <button class="bttn"><a href="team/emma.php">View Profile</a></button>
           </div>
