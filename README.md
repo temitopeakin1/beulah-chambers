@@ -1,3 +1,3 @@
 # beulah-chambers
-I developed this Legal Website using html, CSS, JavaScript, Vanilla Php and MySql
-#blog pages with backend
+Website developed usig html5, CSS3, MySQL and Php
+It has a functional blog with a dedicated backend server
