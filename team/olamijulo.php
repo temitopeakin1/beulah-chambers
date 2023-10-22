@@ -144,7 +144,7 @@
                         She bagged her LL.B degree with honours from Adekunle Ajasin University in 2018 and was subsequently called to the Nigerian Bar in 2020.
                         Shortly after being called to the Nigerian Bar, she worked with Dr. Olutayo Oyewale & Co in Ibadan as a Counsel where she acquired great skills on modern  day legal practice.
                         She subsequently relocated to Ado Ekiti in 2021 where she worked with L.A. Fasanmi & Co, the current NBA Chairman (Ado-Ekiti Branch) before she joined the Law Firm of K.H.Bamiwola & Co.<br>
-                        Her areas of interest include criminal Law advocacy & treatment of offenders, human rights, labour law, property law and commercial law & commercial arbitration.
+                        Her areas of interest include criminal Law advocacy & treatment of offenders, human rights, labour law, property law and commercial law & commercial arbitration.<br>
                         She is currently a member of the 2023 Law Week Planning Committee of NBA, Ado-Ekiti Branch.
                         </p>
                     </div>
