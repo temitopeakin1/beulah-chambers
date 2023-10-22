@@ -151,7 +151,7 @@
   
           <div class="card-content">
             <h2 class="name">O.G Olamijulo Esq.</h2>
-            <p class="description">Associate Counsel</p>
+            <p class="description">Head, Corporate Law Practice</p>
   
             <button class="bttn"><a href="team/olamijulo.php">View Profile</a></button>
           </div>
@@ -167,7 +167,7 @@
   
           <div class="card-content">
             <h2 class="name">Emmanuel Ubah Esq.</h2>
-            <p class="description">Counsel</p>
+            <p class="description">Associate Counsel</p>
             <button class="bttn"><a href="team/emma.php">View Profile</a></button>
           </div>
         </div>

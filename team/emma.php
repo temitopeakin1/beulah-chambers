@@ -107,10 +107,10 @@
                       <h3>Head, Litigation</h3>
                       <hr class="horizontal">
                       <h2><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></h2>
-                      <h3>Associate Counsel</h3>
+                      <h3>Head, Corporate Law Practice</h3>
                       <hr class="horizontal">
                       <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
-                      <h3>Counsel</h3>
+                      <h3>Associate Counsel</h3>
                       <hr class="horizontal">
                       <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
                       <h3>Consultant, Int'l Labour Relations and Law</h3>
@@ -123,7 +123,7 @@
                       <img src="../assets/images/emma.png">
                       <div class="team-profile" id="team-profile">
                       <h2 class="name">Emmanuel Ubah Esq.</h2>
-                        <h3 class="role">Counsel</h3>
+                        <h3 class="role">Associate Counsel</h3>
                         <h3 class="email"><a href="mailto: info@beulahchambers.org">info@beulahchambers.org</a></h3>
                         <h3 class="phone">xxx-xxx-xxxx</h3>
                       <div class="socials">
