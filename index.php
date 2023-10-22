@@ -17,11 +17,8 @@
       src="https://code.jquery.com/jquery-3.5.1.min.js"
       type="text/javascript"
     ></script>
-    <script>
-        ScrollReveal({ reset: true });
-    </script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   
+    <script src="https://unpkg.com/scrollreveal@4"></script>
     <!-- Favicon -->
     <link rel="shortcut icon"
       href="assets/images/favicon.ico"
@@ -335,7 +332,7 @@ s0.parentNode.insertBefore(s1,s0);
     <script src="assets/js/main.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/scroll.js"></script>
-    <scrpt src="assets/js/reveal.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <scrpt src="/assets/js/reveal.js"></script>
+  
 </body>
 </html>

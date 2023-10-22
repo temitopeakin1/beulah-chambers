@@ -1,5 +1,5 @@
-ScrollReveal().reveal('.first-section_home .left', {
-    origin: 'right',
+ScrollReveal().reveal('.first-section_home', {
+    origin: 'left',
     delay: 375,
     duration: 300,
     reset: true,
