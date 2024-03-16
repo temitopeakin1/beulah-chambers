@@ -176,6 +176,21 @@
             <span class="overlay"></span>
   
             <div class="card-image">
+              <img src="assets/images/olumide.png" alt="" class="card-img">
+            </div>
+          </div>
+  
+          <div class="card-content">
+            <h2 class="name">Olumide Elajuku-Wilson Esq.</h2>
+            <p class="description">Associate Counsel</p>
+            <button class="bttn"><a href="team/olumide.php">View Profile</a></button>
+          </div>
+        </div>
+        <div class="team-card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+  
+            <div class="card-image">
               <img src="assets/images/shadare.png" alt="" class="card-img">
             </div>
           </div>

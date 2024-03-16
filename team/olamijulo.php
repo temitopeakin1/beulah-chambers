@@ -113,6 +113,9 @@
                       <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
                       <h3>Associate Counsel</h3>
                       <hr class="horizontal">
+                      <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
+                      <h3>Associate Counsel</h3>
+                      <hr class="horizontal">
                       <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
                       <h3>Consultant, Int'l Labour Relations and Law</h3>
                       <hr class="horizontal">

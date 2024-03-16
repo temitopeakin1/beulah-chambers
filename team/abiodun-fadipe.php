@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Abiodun-Fadipe | Beulah Chambers</title>
+    <title>Abiodun-Fadipe Esq. | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -72,6 +72,7 @@
                     <li><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></li>
                     <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
                     <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
+                    <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
                     <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
                     <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
                     </ul>
@@ -110,6 +111,9 @@
                       <h3>Head, Corporate Law Practice</h3>
                       <hr class="horizontal">
                       <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
+                      <h3>Associate Counsel</h3>
+                      <hr class="horizontal">
+                      <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
                       <h3>Associate Counsel</h3>
                       <hr class="horizontal">
                       <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
