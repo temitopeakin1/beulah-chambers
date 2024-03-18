@@ -73,6 +73,7 @@
                     <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
                     <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
                     <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
+                    <li><a href="../team/adedapo.php">Adedapo Precious Esq.</a></li>
                     <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
                     <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
                     </ul>
@@ -116,6 +117,9 @@
                       <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
                       <h3>Associate Counsel</h3>
                       <hr class="horizontal">
+                      <h2><a href="../team/adedapo.php">Adedapo Precious, Esq.</a></h2>
+                      <h3>Associate Counsel</h3>
+                      <hr class="horizontal">
                       <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
                       <h3>Consultant, Int'l Labour Relations and Law</h3>
                       <hr class="horizontal">
@@ -123,8 +127,8 @@
                       <h3>Consultant, Int'l Human Rights Law</h3>
                       <hr class="horizontal">
                       </div>
-                      <div class="profile_details_fadipe">
-                      <img src="../assets/images/fad-right.png">
+                      <div class="profile_details_adedapo">
+                      <img src="../assets/images/fad.png">
                       <div class="team-profile" id="team-profile">
                       <h2 class="name">Abiodun Fadipe Esq.</h2>
                         <h3 class="role">Head, Litigation</h3>
@@ -142,7 +146,7 @@
                                      <h3>Property Law</h3>
                         </div>
                     </div>
-                    <div class="profiler_fadipe">
+                    <div class="profiler_bamiwola">
                      <p><strong>Abiodun Fadipe Esq.</strong> is a dynamic and dedicated legal practitioner with expertise in Intellectual Property Law, Human Rights, 
                         Company Law, Taxation, and Property Law Practice. He graduated from Olabisi Onabanjo University with a Second Class
                         ( Honours) in Law and further proceeded to the Nigerian Law School, where he earned a Second Class and was called to 

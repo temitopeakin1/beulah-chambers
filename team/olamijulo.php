@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Olamijulo | Beulah Chambers</title>
+    <title>O.G Olamijulo Esq. | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -17,7 +17,6 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <!-- Favicon -->
     <link
       rel="shortcut icon"
@@ -73,6 +72,8 @@
                     <li><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></li>
                     <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
                     <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
+                    <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
+                    <li><a href="../team/adedapo.php">Adedapo Precious Esq.</a></li>
                     <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
                     <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
                     </ul>
@@ -85,19 +86,22 @@
         </nav>
     </header>
 
-    <section class="link" id="link">
+    <!-- <section class="link" id="link">
+          <div class="text"><a href="../">Home</a><span> > </span> Our Team </a></div>
+      </section> -->
+
+  <section class="link" id="link">
     <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  Our Team</div>
     </section>
 
-
-       <section class="profile ptb--100" id="profile">
-       <div class="container-fluid white section" id="debt">
+       <section class="profile ptb--100 pl--10" id="profile">
+        <div class="container-fluid white section">
             <div class="row">
               <div class="col">
                 <div class="container">
                   <div class="row">
                     <div class="profile_law">
-                      <h1 class="title">Legal Experts</h1>
+                      <h1 class="title">Legal Experts Profile</h1>
                       <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></h2>
                       <h3>Managing/Principal Partner</h3>
                       <!-- <hr class="horizontal">
@@ -116,34 +120,37 @@
                       <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
                       <h3>Associate Counsel</h3>
                       <hr class="horizontal">
+                      <h2><a href="../team/adedapo.php">Adedapo Precious, Esq.</a></h2>
+                      <h3>Associate Counsel</h3>
+                      <hr class="horizontal">
                       <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
                       <h3>Consultant, Int'l Labour Relations and Law</h3>
                       <hr class="horizontal">
-                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olua</a></h2>
+                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></h2>
                       <h3>Consultant, Int'l Human Rights Law</h3>
                       <hr class="horizontal">
-                      </div>
-                      <div class="profile_details">
+                    </div>
+                      <div class="profile_details_adedapo">
                       <img src="../assets/images/olami.png">
                       <div class="team-profile" id="team-profile">
-                      <h2 class="name">O.G Olamijulo Esq.</h2>
-                        <h3 class="role">Head, Corporate Law Practice</h3>
-                        <h3 class="email"><a href="mailto: info@beulahchambers.com">info@beulahchambers.com</a></h3>
-                        <h3 class="phone">xxx-xxx-xxxx</h3>
+                      <h2 class="name"> O.G Olamijulo Esq.</h2>
+                        <h3 class="role">Associate Counsel</h3>
+                        <h3 class="email"><a href="mailto: info@beulahchambers.org">info@beulahchambers.org</a></h3>
+                        <h3 class="phone">xxx-xxxx-xxxx</h3>
                       <div class="socials">
                       <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
                       </div>
                       <h2 class="practice">Area of Practice</h2>
-                          <h3>Debt recovery</h3>
+                      <h3>Debt recovery</h3>
                             <h3>Litigation & Arbitration</h3>
                               <h3>Commercial & Corporate Law</h3>
-                                     <h3>Property Law</h3>
+                                     <h3>Property Law</h3>   
                         </div>
                     </div>
-                    <div class="profiler_olamijulo">
-                     <p><strong>O.G.Olamijulo Esq.</strong> is the Head, Corporate Law Practice in the Law Firm of K.H.Bamiwola & Co. <br>
+                    <div class="profiler_bamiwola">
+                    <p><strong>O.G.Olamijulo Esq.</strong> is the Head, Corporate Law Practice in the Law Firm of K.H.Bamiwola & Co. <br>
                         She bagged her LL.B degree with honours from Adekunle Ajasin University in 2018 and was subsequently called to the Nigerian Bar in 2020.
                         Shortly after being called to the Nigerian Bar, she worked with Dr. Olutayo Oyewale & Co in Ibadan as a Counsel where she acquired great skills on modern  day legal practice.
                         She subsequently relocated to Ado Ekiti in 2021 where she worked with L.A. Fasanmi & Co, the current NBA Chairman (Ado-Ekiti Branch) before she joined the Law Firm of K.H.Bamiwola & Co.<br>
@@ -194,7 +201,7 @@
  <div class="footer-section contact-form">
            <h2>Connect With Us</h2>
          <div class="socials">
-            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/bamiwola.hassan" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
      </div>

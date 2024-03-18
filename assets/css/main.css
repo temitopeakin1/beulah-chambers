@@ -2724,9 +2724,56 @@ nav__link active {
 
 /* start: bamiwola */
 .profiler_bamiwola {
-  margin-left: 630px;
+  margin-left: 605px;
   margin-bottom: 2rem;
 }
+
+.profiler_adedapo {
+  margin-left: 605px;
+  margin-bottom: 2rem;
+}
+
+.profile_details_bamiwola img {
+  height: 300px;
+  width: 250px;
+  margin-right: -20px;
+  margin-top: 15px;
+  border-top-left-radius: 20%;
+  background-color: rgb(206, 215, 206);
+  border: 4px solid #763b3b;
+}
+
+.profile_details_adedapo img {
+  height: 300px;
+  width: 250px;
+  margin-right: -20px;
+  margin-top: 15px;
+  border-top-left-radius: 20%;
+  background-color: rgb(206, 215, 206);
+  border: 4px solid #763b3b;
+}
+
+.profile_details_fadipe img {
+  height: 300px;
+  width: 250px;
+  margin-right: -20px;
+  margin-top: 15px;
+  border-top-left-radius: 20%;
+  background-color: rgb(206, 215, 206);
+  border: 4px solid #763b3b;
+}
+
+.profile_details img {
+  height: 300px;
+  width: 250px;
+  margin-right: -20px;
+  margin-top: 15px;
+  border-top-left-radius: 20%;
+  background-color: rgb(206, 215, 206);
+  border: 4px solid #763b3b;
+}
+
+
 
 .profiler_fadipe {
   margin-left: 630px;
@@ -2746,8 +2793,49 @@ nav__link active {
   padding-right: 20px;
   margin-left: -100px;
 }
-.profiler_shadare p {
+
+/* begin :adedapo profile*/
+/* .profile_details_adedapo {
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+  margin-top: -30rem;
+  gap: 5rem;
+}
+
+
+.profiler_adedapo {
+  margin-left: 630px;
+  margin-bottom: 2rem;
+}
+
+.profiler_adedapo p {
   margin-top: -8em;
+  text-align: justify;
+  padding-right: 20px;
+  margin-left: -10px;
+} */
+/* End :adedapo profile*/
+
+/* begin :olumide profile*/
+.profiler_olumide {
+  margin-left: 630px;
+  margin-bottom: 2rem;
+}
+
+.profiler_olumide p {
+  margin-top: -8em;
+  text-align: justify;
+  padding-right: 20px;
+  margin-left: -30px;
+}
+
+
+
+/* End :olumide profile*/
+
+.profiler_shadare p {
+  margin-top: -.5px;
   text-align: justify;
   padding-right: 20px;
   margin-left: -100px;
@@ -2760,18 +2848,14 @@ nav__link active {
   margin-left: -100px;
 }
 
-.profile_details_bamiwola img {
-  height: 300px;
-  width: 220px;
-  margin-right: -20px;
-  margin-top: 15px;
-}
 
-.profile_details_fadipe img {
-  height: 300px;
-  width: 390px;
-  margin-right: -20px;
-  margin-top: 13px;
+ /* profile details */
+.profile_details_adedapo {
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+  margin-top: -30rem;
+  gap: 5rem;
 }
 
 .profile_details_bamiwola {
@@ -2790,6 +2874,14 @@ nav__link active {
   gap: 5rem;
 }
 
+.profile_details {
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+  margin-top: -30rem;
+  gap: 5rem;
+}
+
 .profile_details_bamiwola h3 {
   font-weight: 200;
 }
@@ -2798,14 +2890,25 @@ nav__link active {
   font-weight: 200;
 }
 
+/* team profile */
 .profile_details_bamiwola .team-profile {
   margin-top: 15px;
   margin-right: 25px;
 }
 
-.profile_details_fadipe .team-profile {
+.profile_details_adedapo .team-profile {
   margin-top: 15px;
-  margin-right: 25px;
+  margin-right: 100px;
+}
+
+profile_details_fadipe .team-profile {
+  margin-top: 15px;
+  margin-right: 100px;
+}
+/* shadare's profile settings */
+.profile_details .team-profile {
+  margin-top: 15px;
+  margin-right: 20px;
 }
 /* end: bamiwola */
 
@@ -2875,13 +2978,8 @@ nav__link active {
   margin-bottom: -50px;
 }
 
-.profile_details {
-  display: flex;
-  flex-wrap: nowrap;
-  float: right;
-  margin-top: -30rem;
-  gap: 2rem;
-}
+
+
 
 .profile_details h3 {
   font-weight: 200;
@@ -2907,10 +3005,8 @@ nav__link active {
   gap: 3.5rem;
 }
 
-.profile_details .team-profile {
-  margin-top: 15px;
-  margin-right: 25px;
-}
+
+
 
 .team-profile .name {
   font-size: 20px;

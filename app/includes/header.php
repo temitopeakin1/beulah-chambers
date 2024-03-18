@@ -45,6 +45,7 @@
                     <li><a href="team/olamijulo.php">O.G Olamijulo Esq</a></li>
                     <li><a href="team/emma.php">Emmanuel Ubah Esq</a></li>
                     <li><a href="team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
+                    <li><a href="team/adedapo.php">Adedapo Precious Esq.</a></li>
                     <li><a href="team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
                     <li><a href="team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
                     </ul>

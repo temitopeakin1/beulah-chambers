@@ -73,6 +73,7 @@
                     <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
                     <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
                     <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
+                    <li><a href="../team/adedapo.php">Adedapo Precious Esq.</a></li>
                     <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
                     <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
                     </ul>
@@ -116,17 +117,20 @@
                       <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
                       <h3>Associate Counsel</h3>
                       <hr class="horizontal">
+                      <h2><a href="../team/adedapo.php">Adedapo Precious, Esq.</a></h2>
+                      <h3>Associate Counsel</h3>
+                      <hr class="horizontal">
                       <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
                       <h3>Consultant, Int'l Labour Relations and Law</h3>
                       <hr class="horizontal">
-                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olua</a></h2>
+                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></h2>
                       <h3>Consultant, Int'l Human Rights Law</h3>
                       <hr class="horizontal">
                       </div>
-                      <div class="profile_details">
+                      <div class="profile_details_adedapo">
                       <img src="../assets/images/olumidee.png">
                       <div class="team-profile" id="team-profile">
-                      <h2 class="name">Olumide Elajuku-Wilson Esq.</h2>
+                      <h2 class="name">Olumide Wilson Esq.</h2>
                         <h3 class="role">Associate Counsel</h3>
                         <h3 class="email"><a href="mailto: info@beulahchambers.com">info@beulahchambers.com</a></h3>
                         <h3 class="phone">xxx-xxx-xxxx</h3>
@@ -142,7 +146,7 @@
                                      <h3>Property Law</h3>
                         </div>
                     </div>
-                    <div class="profiler_olutola">
+                    <div class="profiler_bamiwola">
                      <p><strong>Olumide Elajuku-Wilson Esq.</strong> is a dedicated and highly motivated legal practitioner with expertise in Family Law, 
                      Land Law, Property Law and Criminal Litigation.<br> 
                      He is a law graduate of the prestigious Faculty of Law, Adekunle Ajasin University,Akungba-Akoko, Ondo State, Nigeria. He later  proceeded to the Nigerian Law School and was called to Bar in 2024.

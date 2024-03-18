@@ -73,6 +73,7 @@
                     <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
                     <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
                     <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
+                    <li><a href="../team/adedapo.php">Adedapo Precious Esq.</a></li>
                     <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
                     <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
                     </ul>
@@ -116,6 +117,9 @@
                       <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
                       <h3>Associate Counsel</h3>
                       <hr class="horizontal">
+                      <h2><a href="../team/adedapo.php">Adedapo Precious, Esq.</a></h2>
+                      <h3>Associate Counsel</h3>
+                      <hr class="horizontal">
                       <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
                       <h3>Consultant, Int'l Labour Relations and Law</h3>
                       <hr class="horizontal">
@@ -123,7 +127,7 @@
                       <h3>Consultant, Int'l Human Rights Law</h3>
                       <hr class="horizontal">
                       </div>
-                      <div class="profile_details_fadipe">
+                      <div class="profile_details_adedapo">
                       <img src="../assets/images/emma.png">
                       <div class="team-profile" id="team-profile">
                       <h2 class="name">Emmanuel Ubah Esq.</h2>
@@ -142,7 +146,7 @@
                                      <h3>Property Law</h3>
                         </div>
                     </div>
-                    <div class="profiler_fadipe">
+                    <div class="profiler_bamiwola">
                      <p><strong>Emmanuel Ubah, Esq</strong> holds a Bachelor of Laws, (LL B Hons)  from University of Ilorin before he proceeded to the Nigerian Law School for his Bar Qualifying Examination (B.L) Yenagoa Campus
                         and was later called to the Nigerian Bar in December 2022. <br>
                         He had Professional Post- Graduate Diploma (PGD) in Peace, Security Studies and Criminology from the Institute of Global Peace

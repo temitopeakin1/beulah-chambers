@@ -191,6 +191,21 @@
             <span class="overlay"></span>
   
             <div class="card-image">
+              <img src="assets/images/adedapo.png" alt="" class="card-img">
+            </div>
+          </div>
+  
+          <div class="card-content">
+            <h2 class="name">Adedapo Precious, Esq.</h2>
+            <p class="description">Associate Counsel</p>
+            <button class="bttn"><a href="team/adedapo.php">View Profile</a></button>
+          </div>
+        </div>
+        <div class="team-card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+  
+            <div class="card-image">
               <img src="assets/images/shadare.png" alt="" class="card-img">
             </div>
           </div>

@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>K.H Bamiwola | Beulah Chambers</title>
+    <title>Adedapo Precious Esq. | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -130,37 +130,31 @@
                       <h3>Consultant, Int'l Human Rights Law</h3>
                       <hr class="horizontal">
                     </div>
-                      <div class="profile_details_bamiwola">
-                      <img src="../assets/images/bamiwola(1).png">
+                      <div class="profile_details_adedapo">
+                      <img src="../assets/images/adedapo(1).png">
                       <div class="team-profile" id="team-profile">
-                      <h2 class="name"> K. H Bamiwola Esq.</h2>
-                        <h3 class="role">Managing /Principal Partner</h3>
-                        <h3 class="email"><a href="mailto: kehinde.bamiwola@beulahchambers.org">kehinde.bamiwola@beulahchambers.org</a></h3>
-                        <h3 class="phone">(+234)08080075458</h3>
+                      <h2 class="name"> Adedapo Precious Esq.</h2>
+                        <h3 class="role">Associate Counsel</h3>
+                        <h3 class="email"><a href="mailto: info@beulahchambers.org">info@beulahchambers.org</a></h3>
+                        <h3 class="phone">xxx-xxxx-xxxx</h3>
                       <div class="socials">
-                      <a href="https://www.facebook.com/bamiwola.hassan" target="_blank"><i class="fa fa-facebook"></i></a>
+                      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
                       </div>
                       <h2 class="practice">Area of Practice</h2>
-                          <h3>Labour Law</h3>
-                            <h3>Commercial & Corporate Law</h3>
-                              <h3>Property Law</h3>
-                              <h3>Chieftaincy matters<h3>
-                                     <h3>Intellectual property Law</h3>
-                            
+                      <h3>Family Law</h3>
+                            <h3>Property Law</h3>
+                              <h3>Criminal Litigation</h3>
+                                     <h3>Advocacy</h3>     
                         </div>
                     </div>
                     <div class="profiler_bamiwola">
-                     <p><strong>K. H Bamiwola Esq.</strong> is an expert in Human Rights, Commercial Law, Property Law, 
-                        Intellectual Property Law and Labour Law. He is a part-time Lecturer in A' level
-                        Cambridge Law. He is also a Labour Law and Business Law Examiner to Professional Bodies
-                        in Nigeria.He is a Researcher, Writer, Orator and an Instructor on the use of advocacy and
-                        panache in case presentation in Courts. He was a former Research Assistant to Prof. Chioma Kanu Agomo, an erudite Professor of Law at the University of Lagos. He is well published locally and internationally. Some of his Articles have been published by the International Labour Organization (ILO) Geneva. He is the Commissioned Author of the Nigerian Labour Law Text book/Study manual of the Chartered Institute of Personnel Management of Nigeria. He Combines Legal practice together with Academics.
-                        He is a Public Analyst on critical National and International issues on Radio and Television
-                        programs. He is a Legal Consultant to many Trade Unions in Nigeria. He is a member of the Nigerian
-                        Bar Association  formerly the Legal Adviser of NBA Ilaro Branch and currently the Vice-Chairman of
-                        Ilaro- Bar.
+                    <p><strong>Adedapo Precious, Esq.</strong> holds a Bachelor of Laws (LL.B) (Hons) from
+                     Olabisi Onabanjo University, Ago-iwoye, Ogun State. She completed her service year in 2022 in Sagamu, Ogun State, 
+                     before pursuing her Barrister-at-Law degree (B.L ) at the Nigerian Law School and was
+                    called to the Nigerian Bar in 2024.<br> Known for her exceptional skills and passion for advocacy, Adedapo recently  
+                    joined K.H Bamiwola & Co as an Associate Counsel.<br> She is an active member of the Nigerian Bar Association and is enthusiastic about developing herself, eager to learn new things and grow professionally.
                         </p>
                     </div>
                  </div>
