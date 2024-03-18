@@ -144,7 +144,7 @@
                               <h3>Commercial & Corporate Law</h3>
                         </div>
                     </div>
-                    <div class="profiler_olutola">
+                    <div class="profiler_bamiwola">
                      <p><strong>Dr. Bamisaye Olutola</strong> is an International Scholar whose research interests includes Public International
                         Law, Int'l Human Rights Law, Comparative constitutional and issues around democratisation processes in
                         emerging democracies. He had his LL.B from the University of Lagos, subsequently called to the Nigerian Bar.
