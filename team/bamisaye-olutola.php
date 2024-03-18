@@ -97,7 +97,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="profile_law">
-                      <h1 class="title">Legal Experts</h1>
+                      <h1 class="title">Legal Experts Profile</h1>
                       <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></h2>
                       <h3>Managing/Principal Partner</h3>
                       <!-- <hr class="horizontal">

@@ -2117,7 +2117,7 @@ nav__link active {
 #third-section_about {
   min-height: 80vh;
   display: flex;
-  background: linear-gradient(to right, #0C84A4, #030403);
+  background: linear-gradient(to right, #0c84a4, #030403);
   margin-bottom: 100px;
 }
 
@@ -2503,8 +2503,10 @@ nav__link active {
   font-size: 1.5rem;
 }
 
+/*Begin:  media queries for Profile page */
 @media only screen and (min-width: 240px) and (max-width: 768px) {
-  body, html {
+  body,
+  html {
     overflow-x: hidden;
   }
 
@@ -2537,16 +2539,7 @@ nav__link active {
     overflow: hidden;
   }
 
-  #profile .profile_details_fadipe {
-    display: flex;
-    flex-direction: column;
-    margin-left: -60px;
-    margin-top: 1.5rem;
-    margin-right: 50rem;
-    overflow: hidden;
-  }
-
-  #profile .profile_details_joy {
+  #profile .profile_details_adedapo {
     display: flex;
     flex-direction: column;
     margin-left: -60px;
@@ -2614,78 +2607,15 @@ nav__link active {
     margin-top: 10rem;
   }
 
-  #profile .profiler_fadipe {
-    float: left;
-    margin-left: 2.5rem;
-    margin-right: 1rem;
-    margin-top: 10rem;
-  }
-
-  #profile .profiler_joy {
-    float: left;
-    margin-left: 2.5rem;
-    margin-right: 1rem;
-    margin-top: 10rem;
-  }
-
-  #profile .profiler_shadare {
-    float: left;
-    margin-left: 2.5rem;
-    margin-top: 10rem;
-  }
-
-  #profile .profiler_olamijulo {
-    float: left;
-    margin-left: 2.5rem;
-    margin-top: 10rem;
-  }
-
-  #profile .profiler_olutola {
-    float: left;
-    margin-left: -4rem;
-    margin-top: 2rem;
-  }
-
   .profiler_bamiwola p {
     text-align: justify;
     margin-right: 47rem;
   }
-
-  .profiler_fadipe p {
-    text-align: justify;
-    margin-right: 45rem;
-    margin-top: -30px;
-  }
-
-  .profiler_joy p {
-    text-align: justify;
-    margin-right: 47rem;
-  }
-
-
-  .profiler_shadare p {
-    text-align: justify;
-    /* margin-right: 12rem; */
-    padding-right: 4rem;
-    margin-right: 45rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .profiler_olamijulo p {
-    text-align: justify;
-    /* margin-right: 12rem; */
-    padding-right: 4rem;
-    margin-right: 47rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .profiler_olutola p {
-    text-align: justify;
-    padding-right: 5rem;
-    margin-right: 37.2rem;
-    padding-bottom: 2rem;
-  }
 }
+
+/* End : Media queries */
+
+/* Begin : Profile */
 
 .horizontal {
   width: 340px;
@@ -2722,13 +2652,8 @@ nav__link active {
   text-decoration: none;
 }
 
-/* start: bamiwola */
+/* Begin: Bamiwoa style  */
 .profiler_bamiwola {
-  margin-left: 605px;
-  margin-bottom: 2rem;
-}
-
-.profiler_adedapo {
   margin-left: 605px;
   margin-bottom: 2rem;
 }
@@ -2743,6 +2668,21 @@ nav__link active {
   border: 4px solid #763b3b;
 }
 
+.profiler_bamiwola p {
+  margin-top: -8em;
+  text-align: justify;
+  padding-right: 20px;
+  margin-left: -100px;
+}
+
+/* End: Bamiwola */
+
+/* Begin: Adedapo style */
+.profiler_adedapo {
+  margin-left: 605px;
+  margin-bottom: 2rem;
+}
+
 .profile_details_adedapo img {
   height: 300px;
   width: 250px;
@@ -2753,16 +2693,19 @@ nav__link active {
   border: 4px solid #763b3b;
 }
 
-.profile_details_fadipe img {
-  height: 300px;
-  width: 250px;
-  margin-right: -20px;
-  margin-top: 15px;
-  border-top-left-radius: 20%;
-  background-color: rgb(206, 215, 206);
-  border: 4px solid #763b3b;
+.profile_details_adedapo h3 {
+  font-weight: 200;
 }
 
+.profile_details_adedapo {
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+  margin-top: -30rem;
+  gap: 5rem;
+}
+
+/* End: Adedapo style */
 .profile_details img {
   height: 300px;
   width: 250px;
@@ -2773,90 +2716,8 @@ nav__link active {
   border: 4px solid #763b3b;
 }
 
+/* profile details */
 
-
-.profiler_fadipe {
-  margin-left: 630px;
-  margin-bottom: 2rem;
-}
-
-.profiler_bamiwola p {
-  margin-top: -8em;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -100px;
-}
-
-.profiler_fadipe p {
-  margin-top: -8em;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -100px;
-}
-
-/* begin :adedapo profile*/
-/* .profile_details_adedapo {
-  display: flex;
-  flex-wrap: nowrap;
-  float: right;
-  margin-top: -30rem;
-  gap: 5rem;
-}
-
-
-.profiler_adedapo {
-  margin-left: 630px;
-  margin-bottom: 2rem;
-}
-
-.profiler_adedapo p {
-  margin-top: -8em;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -10px;
-} */
-/* End :adedapo profile*/
-
-/* begin :olumide profile*/
-.profiler_olumide {
-  margin-left: 630px;
-  margin-bottom: 2rem;
-}
-
-.profiler_olumide p {
-  margin-top: -8em;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -30px;
-}
-
-
-
-/* End :olumide profile*/
-
-.profiler_shadare p {
-  margin-top: -.5px;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -100px;
-}
-
-.profiler_olamijulo p {
-  margin-top: -8em;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -100px;
-}
-
-
- /* profile details */
-.profile_details_adedapo {
-  display: flex;
-  flex-wrap: nowrap;
-  float: right;
-  margin-top: -30rem;
-  gap: 5rem;
-}
 
 .profile_details_bamiwola {
   display: flex;
@@ -2875,6 +2736,13 @@ nav__link active {
 }
 
 .profile_details {
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+  margin-top: -30rem;
+  gap: 5rem;
+}
+.profile_details_olutola {
   display: flex;
   flex-wrap: nowrap;
   float: right;
@@ -2900,113 +2768,19 @@ nav__link active {
   margin-top: 15px;
   margin-right: 100px;
 }
-
-profile_details_fadipe .team-profile {
-  margin-top: 15px;
-  margin-right: 100px;
-}
 /* shadare's profile settings */
 .profile_details .team-profile {
   margin-top: 15px;
   margin-right: 20px;
 }
-/* end: bamiwola */
-
-/* start: joy */
-
-.profiler_joy {
-  margin-left: 630px;
-  margin-bottom: 2rem;
-}
-
-.profiler_joy p {
-  margin-top: -9.5em;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -100px;
-}
-
-.profile_details_joy {
-  display: flex;
-  flex-wrap: nowrap;
-  float: right;
-  margin-top: -30rem;
-  gap: 4.8rem;
-}
-
-.profile_details_joy h3 {
-  font-weight: 200;
-}
-
-.profile_details_joy .team-profile {
-  margin-top: 15px;
-  margin-right: 25px;
-}
-
-/* End: Bamisaye */
-
-/* .profiler {
-  margin-left: 580px;
-  margin-bottom: 2rem;
-} */
-
-.profiler_shadare {
-  margin-left: 580px;
-  margin-bottom: 2rem;
-}
-
-.profiler_olamijulo {
-  margin-left: 680px;
-  margin-bottom: 2rem;
-}
-
-.profiler_olutola {
-  margin-left: 580px;
-  margin-bottom: 2rem;
-  margin-top: -10em;
-  text-align: justify;
-}
-
- .profiler_shadare p {
-  margin-top: -10em;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -100px;
-} 
 
 .practice h2 {
   margin-bottom: -50px;
 }
 
-
-
-
 .profile_details h3 {
   font-weight: 200;
 }
-
-.profilera {
-  margin-left: 570px;
-  margin-bottom: 2rem;
-}
-
-.profilera p {
-  margin-top: -3.2rem;
-  text-align: justify;
-  padding-right: 20px;
-  margin-left: -100px;
-}
-
-.profile_details2 {
-  display: flex;
-  flex-wrap: nowrap;
-  float: right;
-  margin-top: -20rem;
-  gap: 3.5rem;
-}
-
-
-
 
 .team-profile .name {
   font-size: 20px;

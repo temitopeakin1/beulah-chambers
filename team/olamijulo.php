@@ -111,7 +111,7 @@
                       <h2><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></h2>
                       <h3>Head, Litigation</h3>
                       <hr class="horizontal">
-                      <h2><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></h2>
+                      <h2><a href="../team/olamijulo.php">O.G Olamijulo Esq.</a></h2>
                       <h3>Head, Corporate Law Practice</h3>
                       <hr class="horizontal">
                       <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
