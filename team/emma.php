@@ -99,7 +99,7 @@
                   <div class="row">
                     <div class="profile_law">
                       <h1 class="title">Legal Experts Profile</h1>
-                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></h2>
+                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.<h3>(LL.M with Distinction)</h3></a></h2>
                       <h3>Managing/Principal Partner</h3>
                       <!-- <hr class="horizontal">
                       <h2><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></h2>

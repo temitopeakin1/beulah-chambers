@@ -2787,9 +2787,10 @@ nav__link active {
 }
 
 .team-profile .practice {
-  margin-top: 2rem;
+  margin-top: .3rem;
   color: #763b3b;
   font-size: 20px;
+
 }
 
 .legal__help {

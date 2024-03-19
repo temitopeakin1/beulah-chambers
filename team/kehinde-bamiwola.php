@@ -102,11 +102,8 @@
                   <div class="row">
                     <div class="profile_law">
                       <h1 class="title">Legal Experts Profile</h1>
-                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></h2>
+                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.<h3>(LL.M with Distinction)</h3></a></h2>
                       <h3>Managing/Principal Partner</h3>
-                      <!-- <hr class="horizontal">
-                      <h2><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></h2>
-                      <h3>Head of Chambers</h3> -->
                       <hr class="horizontal">
                       <h2><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></h2>
                       <h3>Head, Litigation</h3>
@@ -132,8 +129,8 @@
                     </div>
                       <div class="profile_details_bamiwola">
                       <img src="../assets/images/bamiwola(1).png">
-                      <div class="team-profile" id="team-profile">
-                      <h2 class="name"> K. H Bamiwola Esq.</h2>
+                    <div class="team-profile" id="team-profile">
+                      <h2 class="name"> K. H Bamiwola Esq.<h3>(LL.M with Distinction)</h3></h2>
                         <h3 class="role">Managing /Principal Partner</h3>
                         <h3 class="email"><a href="mailto: kehinde.bamiwola@beulahchambers.org">kehinde.bamiwola@beulahchambers.org</a></h3>
                         <h3 class="phone">(+234)08080075458</h3>
