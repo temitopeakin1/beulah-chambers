@@ -38,71 +38,50 @@
   <!-- header include -->
   <?php include ROOT_PATH . '/app/includes/header.php'; ?>
   
-  <!-- Begin: slider -->
-  <div class="slider-container">
-    <div class="slider-control left inactive"></div>
-    <div class="slider-control right"></div>
-    <ul class="slider-pagi"></ul>
-    <div class="slider">
-      <div class="slide slide-0 active">
-        <div class="slide__bg"></div>
-        <div class="slide__content">
-          <div class="slide__text">
-            <h2 class="slide__text-heading">Commercial Law</h2>
-            <p class="slide__text-desc">
-              Experts in Business and Trade Laws
-            </p>
-            <a href="practice-areas/commercial-law.php" class="button"
-              >Learn More</a
-            >
-          </div>
+  <!-- Begin: Hero slider (4 slides) -->
+  <div class="hero-slider">
+    <div class="hero-slider__track">
+      <div class="hero-slide hero-slide--1 active" style="background-image: url('assets/css/law-image.jpg');" data-heading="Commercial Law" data-desc="Expert guidance on business law, contracts, and commercial disputes" data-btn="Learn More" data-href="practice-areas/commercial-law.php">
+        <div class="hero-slide__overlay"></div>
+        <div class="hero-slide__content">
+          <h2 class="hero-slide__heading">Commercial Law</h2>
+          <p class="hero-slide__desc">Expert guidance on business law, contracts, and commercial disputes</p>
+          <a href="practice-areas/commercial-law.php" class="hero-slide__btn">Learn More</a>
         </div>
       </div>
-      <div class="slide slide-1">
-        <div class="slide__bg"></div>
-        <div class="slide__content">
-          <div class="slide__text">
-            <h2 class="slide__text-heading">Human Rights</h2>
-            <p class="slide__text-desc">
-              Experts in Human rights Law
-            </p>
-            <a href="practice-areas/human-rights.php" class="button"
-              >Learn More</a
-            >
-          </div>
+      <div class="hero-slide hero-slide--2" style="background-image: url('assets/css/law.jpg');" data-heading="Arbitration" data-desc="Resolving disputes efficiently and fairly through expert mediation" data-btn="About Us" data-href="about.php">
+        <div class="hero-slide__overlay"></div>
+        <div class="hero-slide__content">
+          <h2 class="hero-slide__heading">Arbitration</h2>
+          <p class="hero-slide__desc">Resolving disputes efficiently and fairly through expert mediation</p>
+          <a href="about.php" class="hero-slide__btn">About Us</a>
         </div>
       </div>
-
-      <div class="slide slide-2">
-        <div class="slide__bg"></div>
-        <div class="slide__content">
-          <div class="slide__text">
-          <h2 class="slide__text-heading">Intellectual Property Law</h2>
-            <p class="slide__text-desc">
-            We protect your Creativity
-            </p>
-            <a href="practice-areas/intellectual-property.php" class="button"
-              >Learn More</a
-            >
-          </div>
+      <div class="hero-slide hero-slide--3" style="background-image: url('assets/css/slide-3.jpg');" data-heading="Labour Law" data-desc="Protecting workers' rights and advising employers on employment compliance" data-btn="Learn More" data-href="practice-areas/labour-law.php">
+        <div class="hero-slide__overlay"></div>
+        <div class="hero-slide__content">
+          <h2 class="hero-slide__heading">Labour Law</h2>
+          <p class="hero-slide__desc">Protecting workers' rights and advising employers on employment compliance</p>
+          <a href="practice-areas/labour-law.php" class="hero-slide__btn">Learn More</a>
         </div>
       </div>
-
-      <div class="slide slide-3">
-        <div class="slide__bg"></div>
-        <div class="slide__content">
-          <div class="slide__text">
-          <h2 class="slide__text-heading">Labour Law</h2>
-            <p class="slide__text-desc">
-              Experts in Labour and Employment Law practices
-            </p>
-            <a href="practice-areas/labour-law.php" class="button"
-              >Learn More</a
-            >
-          </div>
+      <div class="hero-slide hero-slide--4" style="background-image: url('assets/css/slide-2.jpg');" data-heading="Human Rights Law" data-desc="Championing dignity, equality, and access to justice for all" data-btn="Learn More" data-href="practice-areas/human-rights.php">
+        <div class="hero-slide__overlay"></div>
+        <div class="hero-slide__content">
+          <h2 class="hero-slide__heading">Human Rights Law</h2>
+          <p class="hero-slide__desc">Championing dignity, equality, and access to justice for all</p>
+          <a href="practice-areas/human-rights.php" class="hero-slide__btn">Learn More</a>
         </div>
       </div>
     </div>
+    <div class="hero-slider__caption">
+      <h2 class="hero-slide__heading" id="hero-caption-heading">Commercial Law</h2>
+      <p class="hero-slide__desc" id="hero-caption-desc">Expert guidance on business law, contracts, and commercial disputes</p>
+      <a href="practice-areas/commercial-law.php" class="hero-slide__btn" id="hero-caption-btn">Learn More</a>
+    </div>
+    <button type="button" class="hero-slider__prev" aria-label="Previous slide">&lsaquo;</button>
+    <button type="button" class="hero-slider__next" aria-label="Next slide">&rsaquo;</button>
+    <ul class="hero-slider__dots"></ul>
   </div>
   
 
@@ -330,9 +309,8 @@ s0.parentNode.insertBefore(s1,s0);
 </button>
 
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/hero-slider.js"></script>
     <script src="assets/js/scroll.js"></script>
-    <scrpt src="/assets/js/reveal.js"></script>
-  
+    <script src="assets/js/reveal.js"></script>  
 </body>
 </html>

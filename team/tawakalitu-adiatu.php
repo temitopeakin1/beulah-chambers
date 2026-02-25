@@ -1,10 +1,10 @@
-<?php include('../path.php'); ?>
+<?php include '../path.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Commercial Law | Beulah Chambers</title>
+    <title>Tawakalitu Iyabode Adiatu Esq. | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -17,7 +17,6 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Favicon -->
     <link
       rel="shortcut icon"
       href="../assets/images/favicon.ico"
@@ -26,7 +25,6 @@
   </head>
 
 <body>
-    <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
           <div class="logo">
@@ -47,7 +45,6 @@
               <li><a href="../practice-areas/labour-law.php">Labour Law</a></li>
               <li><a href="../practice-areas/human-rights.php">Human Rights</a></li>
               <li><a href="../practice-areas/commercial-law.php">Commercial Law</a></li>
-              <!-- <li><a href="property-law.html">Property Law</a></li> -->
               <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
               <li>
                 <a href="../practice-areas/intellectual-property.php"
@@ -66,66 +63,56 @@
           </li>
                     <li class="nav__item"><a href="../articles.php" class="nav__link">Articles</a></li>
                     <li class="nav__item"><a href="../team.php" class="nav__link">Team</a></li>
-                    <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li> 
+                    <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li>
                 </ul>
             </div>
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
-            </div> 
+            </div>
         </nav>
     </header>
 
-  <!-- first section arbitration --> 
-  <section class="link ptb--200" id="link">
-    <div class="text"><a href="../index.php">Home</a> <i class="fa fa-long-arrow-right"></i> <a href="#">Practice-Areas</a> <i class="fa fa-long-arrow-right"></i> Commercial Law</div>
-</section>
-<!-- End : first-section arbitration -->
-
- <section class="second-section_arbitration ptb--100" id="second-section_arbitration">
-  <div class="container-fluid white section">
-            <div class="row">
-              <div class="col">
-                <div class="container">
-              <div class="left__arbitration">
-                <h1 class="title">Practice Areas</h1>
-                <h2><a href="../practice-areas/labour-law.php">Labour Law</a></h2>
-                <h2><a href="../practice-areas/human-rights.php">Human Rights</a></h2>
-                <h2><a href="../practice-areas/commercial-law.php">Commercial Law</a></h2>
-                <h2><a href="../practice-areas/arbitration.php">Arbitration</a></h2>
-                <h2><a href="../practice-areas/intellectual-property.php">Intellectual Property Law</a></h2>
-                <h2><a href="../practice-areas/family-law.php">Family Law </a></h2>
-                <h2><a href="../practice-areas/election-petitions.php">Election Petitions </a></h2>
-                <h2><a href="../practice-areas/criminal-law.php">Criminal Law</a></h2>
-                <h2><a href="../practice-areas/banking-and-debt-recovery.php">Banking & Debt Recovery </a></h2>
-              </div>
-              <div class="right__arbitration">
-                <img src="../assets/images/commercial.jpg">
-                <h1>Commercial Law</h1>
-                <p>
-                  <strong>Commercial law</strong>, also known as business law or mercantile law, 
-                  is a branch of law that deals with the legal aspects of commercial 
-                  and business transactions. It governs the relationships between individuals
-                   and businesses engaged in commerce, as well as the relationships between businesses 
-                   themselves.
-                  <strong>Commercial law</strong> covers a wide range of legal topics, including contracts, corporate law, 
-                  intellectual property, employment law, and taxation. It also includes the laws governing 
-                  commercial transactions, such as sales, leases, and secured transactions.
-                  Key areas which KH Bamiwola & Co are heavily involved with includes Corporate Law, Contract Law, 
-                  Taxation.
-                </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <section class="link" id="link">
+    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  <a href="../team.php">Our Team</a></div>
   </section>
 
-  <section class="contact ptb--100">
-    <button type="btn" class="btn"><a href="../contact.php">Get a Free Consultation Today <i class="fa fa-envelope-open-o"></i></a></button>
-  </section>
+  <?php
+  $team_base = '';
+  $profile = [
+    'title' => 'Research Assistant',
+    'name' => 'Tawakalitu Iyabode Adiatu Esq.',
+    'image' => '../assets/images/associate-partner-3.jpeg',
+    'image_alt' => 'Tawakalitu Iyabode Adiatu',
+    'education' => [
+      'LL.B Second Class Upper (Osun State University)',
+      'B.L (Nigerian Law School, Port Harcourt campus, Rivers State, 2025)',
+      'ALX Virtual Assistant Cohort 6',
+    ],
+    'memberships' => [],
+    'practice_areas' => [
+      'Criminal Law',
+      'Civil Litigation',
+      'Real Estate Law',
+      'Family Law',
+      'Law of Contract',
+      'Law of Evidence',
+      'Litigation Support',
+      'Legal Research & Drafting',
+    ],
+    'bio' => '<p><strong>Tawakalitu Iyabode Adiatu</strong> is a Research Assistant at K.H Bamiwola & Co. (Beulah Chambers), a prominent law firm in Ogun State, Nigeria. She hails from Iwo in Osun State. She obtained her Bachelor of Laws degree with Second Class Upper Division from Osun State University. Subsequently, she attended the Nigerian Law School in 2025 at the Port Harcourt campus in Rivers State. Her professional journey began with an internship at Laide Oladepo and Associates, where she served for approximately four years in Osun State. She later joined K.H. Bamiwola & Co., where she has contributed to the firm\'s growth and her own professional development.</p><p>Currently, she serves as a Research Assistant, providing structured legal analysis, drafting support, and comprehensive research across various practice areas. Her expertise encompasses litigation support, case review, and the preparation of legal documentation, with a consistent emphasis on accuracy. She is also a graduate of the ALX Virtual Assistant Cohort 6, with advanced training in administrative systems, digital tools, and workflow management. Her combination of legal knowledge and organizational skills enhances operational efficiency. She has demonstrated leadership through academic and professional roles involving coordination and accountability. She maintains a keen interest in Criminal Law, Civil Litigation, Real Estate Law, Family Law, Law of Contract, and the Law of Evidence. She is recognized for her solutions-oriented approach to legal tasks. Committed to excellence, ethical practice, and ongoing professional development, she upholds high standards within the legal profession.</p>',
+    'current_slug' => 'tawakalitu-adiatu',
+  ];
+  include ROOT_PATH . '/app/includes/team-profile-layout.php';
+  ?>
+
+        <section class="legal__help ptb--10">
+        <i class="fas fa-briefcase"></i><h2 class="briefcase_help">Need Help with with Legal Issues?</h2>
+         <button class="botton"><a href="../contact.php">CONTACT US</button></a>
+      </section>
+
 
 <!-- Begin: footer -->
-   <div class="footer">
+<div class="footer">
     <div class="footer-content">
      <div class="footer-section about">
          <h2>Beulah Chambers</h2>
@@ -133,7 +120,7 @@
           range of Services such as Litigation, Corporate Law, Family Law, Arbitration e.tc. We have a proven track records in these Areas.</p>
          <div class="contact">
              <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Lagos Office:  27 Obafemi Awolowo Way, Ikeja Lagos</span>
-             <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Ogun Office: 171, Lagos Road, Alagbon, Owode-Yewa Ogun</span> 
+             <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Ogun Office: 171, Lagos Road, Alagbon, Owode-Yewa Ogun</span>
              <span><i class="fas fa-phone" aria-hidden="true"></i>  (+234)08080075458</a></span>
              <span><i class="fas fa-globe" aria-hidden="true"></i><a href="https://www.beulahchambers.org"> Beulah Chambers</a></span>
              </div>
@@ -143,27 +130,26 @@
          <ul>
              <li><a href="../index.php">Home</a></li>
              <li><a href="../about.php">About</a></li>
-             <li><a href="/practice-areas/labour-law.php">Labour Law</a></li>
-             <li><a href="/practice-areas/commercial-law.php">Commercial Law</a></li>
-             <li><a href="/practice-areas/intellectual-property-law.php">Intellectual Property Law</a></li>
-             <li><a href="/practice-areas/family-law.php">Family Law</a></li>
-             <li><a href="/practice-areas/arbitration.php">Arbitration</a></li>
+             <li><a href="../practice-areas/labour-law.php">Labour Law</a></li>
+             <li><a href="../practice-areas/commercial-law.php">Commercial Law</a></li>
+             <li><a href="../practice-areas/intellectual-property.php">Intellectual Property Law</a></li>
+             <li><a href="../practice-areas/family-law.php">Family Law</a></li>
+             <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
              <li><a href="../articles.php">Articles</a></li>
          </ul>
-     </div> 
+     </div>
  <div class="footer-section contact-form">
            <h2>Connect With Us</h2>
          <div class="socials">
-            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/bamiwola.hassan" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
      </div>
       </div>
 </div>
-     
+
     <div class="footer-bottom">
-     <p class="copy-right">
-         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https//www.beulahchambers.org">Beulah Chambers</a></p>
+     <p class="copy-right">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Beulah Chambers. All rights reserved. | <a href="https://www.beulahchambers.org">Beulah Chambers</a></p>
     </div>
 </div>
 
@@ -172,7 +158,6 @@
 </button>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="assets/js/slider.js"></script>
     <script src="../assets/js/scroll.js"></script>
 </body>
 </html>

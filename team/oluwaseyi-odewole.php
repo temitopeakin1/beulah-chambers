@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Olumide Elajuku-Wilson Esq. | Beulah Chambers</title>
+    <title>Oluwaseyi Odewole Esq. | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -17,7 +17,6 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <!-- Favicon -->
     <link
       rel="shortcut icon"
@@ -66,17 +65,7 @@
             </ul>
           </li>
                     <li class="nav__item"><a href="../articles.php" class="nav__link">Articles</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Team <i class="fas fa-chevron-down" style="font-size: 0.8em" ;></i></a>
-                    <ul>
-                    <li><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></li>
-                    <li><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></li>
-                    <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
-                    <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
-                    <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
-                    <li><a href="../team/adedapo.php">Adedapo Precious Esq.</a></li>
-                    <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
-                    <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
-                    </ul>
+                    <li class="nav__item"><a href="../team.php" class="nav__link">Team</a></li>
                     <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li> 
                 </ul>
             </div>
@@ -87,81 +76,36 @@
     </header>
 
     <section class="link" id="link">
-    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  Our Team</div>
-    </section>
+    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  <a href="../team.php">Our Team</a></div>
+  </section>
 
 
-       <section class="profile ptb--100" id="profile">
-       <div class="container-fluid white section" id="debt">
-            <div class="row">
-              <div class="col">
-                <div class="container">
-                  <div class="row">
-                    <div class="profile_law">
-                      <h1 class="title">Legal Experts Profile</h1>
-                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.<h3>(LL.M with Distinction)</h3></a></h2>
-                      <h3>Managing/Principal Partner</h3>
-                      <!-- <hr class="horizontal">
-                      <h2><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></h2>
-                      <h3>Head of Chambers</h3> -->
-                      <hr class="horizontal">
-                      <h2><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></h2>
-                      <h3>Head, Litigation</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></h2>
-                      <h3>Head, Corporate Law Practice</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/adedapo.php">Adedapo Precious, Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
-                      <h3>Consultant, Int'l Labour Relations and Law</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></h2>
-                      <h3>Consultant, Int'l Human Rights Law</h3>
-                      <hr class="horizontal">
-                      </div>
-                      <div class="profile_details_adedapo">
-                      <img src="../assets/images/olumidee.png">
-                      <div class="team-profile" id="team-profile">
-                      <h2 class="name">Olumide Wilson Esq.</h2>
-                        <h3 class="role">Associate Counsel</h3>
-                        <h3 class="email"><a href="mailto: info@beulahchambers.com">info@beulahchambers.com</a></h3>
-                        <h3 class="phone">xxx-xxx-xxxx</h3>
-                      <div class="socials">
-                      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      </div>
-                      <h2 class="practice">Area of Practice</h2>
-                          <h3>Family Law</h3>
-                            <h3>Land Law</h3>
-                              <h3>Criminal Litigation</h3>
-                                     <h3>Property Law</h3>
-                        </div>
-                    </div>
-                    <div class="profiler_bamiwola">
-                     <p><strong>Olumide Elajuku-Wilson Esq.</strong> is a dedicated and highly motivated legal practitioner with expertise in Family Law, 
-                     Land Law, Property Law and Criminal Litigation.<br> 
-                     He is a law graduate of the prestigious Faculty of Law, Adekunle Ajasin University,Akungba-Akoko, Ondo State, Nigeria. He later  proceeded to the Nigerian Law School and was called to Bar in 2024.
-                     He is a researcher, teacher and a freelance writer. 
-                     He was formerly a Government and Literature-in-English Teacher in Government Secondary School, Anyama-Ogbia, 
-                     Bayelsa State and Community Secondary School, Otuasega, Bayelsa State respectively. He has a great passion for litigation and keen interest 
-                     in legal research and legal drafting.
-                        </p>
-                    </div>
-                 </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+  <?php
+  $team_base = '';
+  $profile = [
+    'title' => 'Head of Chambers',
+    'name' => 'Oluwaseyi Odewole Esq.',
+    'image' => '../assets/images/head-chambers.jpeg',
+    'image_alt' => 'Oluwaseyi Odewole',
+    'education' => [
+      'LL.B (Ekiti State University)',
+      'B.L (Nigerian Law School, Yenagoa, Bayelsa State)',
+    ],
+    'memberships' => ['Nigerian Bar Association'],
+    'practice_areas' => [
+      'Criminal Law & Litigation',
+      'Civil Litigation',
+      'Real Estate',
+      'Corporate Law',
+      'Family Law',
+      'Labour Law',
+      'Telecommunications (Mast Management)',
+    ],
+    'bio' => '<p><strong>Oluwaseyi Odewole Esq.</strong> is the Head of Chambers at Beulah Chambers (K.H Bamiwola & Co), a leading law firm in Nigeria. He is a native of Kwara State, born in Lagos State. He studied Law at Ekiti State University where he obtained his Bachelor of Laws degree and was thereafter called to the Nigerian Bar after the successful completion of his one-year compulsory programme at the Nigerian Law School, Yenagoa, Bayelsa State.</p><p>He began his career at Abayomi Iyasele & Associates, Lagos, from where he cut his teeth in advocacy practice and subsequently rose from NYSC Associate to Head of Chamber through his hard work, resilience and intellectual performance before moving to K.H Bamiwola & Co, where he has continued the improvement and development of the firm and himself. He is a member of the Nigerian Bar Association.</p>',
+    'current_slug' => 'oluwaseyi-odewole',
+  ];
+  include ROOT_PATH . '/app/includes/team-profile-layout.php';
+  ?>
 
         <section class="legal__help ptb--10">
         <i class="fas fa-briefcase"></i><h2 class="briefcase_help">Need Help with with Legal Issues?</h2>
@@ -207,8 +151,7 @@
 </div>
      
     <div class="footer-bottom">
-     <p class="copy-right">
-         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https//www.beulahchambers.org">Beulah Chambers</a></p>
+     <p class="copy-right">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Beulah Chambers. All rights reserved. | <a href="https://www.beulahchambers.org">Beulah Chambers</a></p>
     </div>
 </div>
 

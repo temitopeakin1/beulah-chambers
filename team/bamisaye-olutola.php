@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Bamisaye-Olutola | Beulah Chambers</title>
+    <title>Dr. Bamisaye Olutola | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -17,7 +17,6 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Favicon -->
     <link
       rel="shortcut icon"
       href="../assets/images/favicon.ico"
@@ -26,7 +25,6 @@
   </head>
 
 <body>
-    <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
           <div class="logo">
@@ -47,7 +45,6 @@
               <li><a href="../practice-areas/labour-law.php">Labour Law</a></li>
               <li><a href="../practice-areas/human-rights.php">Human Rights</a></li>
               <li><a href="../practice-areas/commercial-law.php">Commercial Law</a></li>
-              <!-- <li><a href="property-law.html">Property Law</a></li> -->
               <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
               <li>
                 <a href="../practice-areas/intellectual-property.php"
@@ -65,110 +62,52 @@
             </ul>
           </li>
                     <li class="nav__item"><a href="../articles.php" class="nav__link">Articles</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Team <i class="fas fa-chevron-down" style="font-size: 0.8em" ;></i></a>
-                    <ul>
-                    <li><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></li>
-                    <!-- <li><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></li> -->
-                    <li><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></li>
-                    <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
-                    <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
-                    <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
-                    <li><a href="../team/adedapo.php">Adedapo Precious Esq.</a></li>
-                    <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
-                    <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
-                    </ul>
-                    <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li> 
+                    <li class="nav__item"><a href="../team.php" class="nav__link">Team</a></li>
+                    <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li>
                 </ul>
             </div>
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
-            </div> 
+            </div>
         </nav>
     </header>
 
-    <section class="link" id="link">
-    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  Our Team</div>
-    </section>
+  <section class="link" id="link">
+    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  <a href="../team.php">Our Team</a></div>
+  </section>
 
-       <section class="profile ptb--100" id="profile">
-        <div class="container-fluid white section" id="debt">
-            <div class="row">
-              <div class="col">
-                <div class="container">
-                  <div class="row">
-                    <div class="profile_law">
-                      <h1 class="title">Legal Experts Profile</h1>
-                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.<h3>(LL.M with Distinction)</h3></a></h2>
-                      <h3>Managing/Principal Partner</h3>
-                      <!-- <hr class="horizontal">
-                      <h2><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></h2>
-                      <h3>Head of Chambers</h3> -->
-                      <hr class="horizontal">
-                      <h2><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></h2>
-                      <h3>Head, Litigation</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></h2>
-                      <h3>Head, Corporate Law Practice</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/adedapo.php">Adedapo Precious, Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
-                      <h3>Consultant, Int'l Labour Relations and Law</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></h2>
-                      <h3>Consultant, Int'l Human Rights Law</h3>
-                      <hr class="horizontal">
-                      </div>
-                      <div class="profile_details">
-                      <img src="../assets/images/bamisaye.png">
-                      <div class="team-profile" id="team-profile">
-                      <h2 class="name">Dr.Bamisaye Olutola </h2>
-                        <h3 class="role">Consultant, Int'l Human Rights Law</h3>
-                        <h3 class="email"><a href="mailto: info@beulahchambers.org">info@beulahchambers.org</a></h3>
-                        <h3 class="phone">xxx-xxx-xxxx</h3>
-                      <div class="socials">
-                      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      </div>
-                      <h2 class="practice">Area of Practice</h2>
-                          <h3>Human Rights</h3>
-                            <h3>Litigation & Arbitration</h3>
-                              <h3>Commercial & Corporate Law</h3>
-                        </div>
-                    </div>
-                    <div class="profiler_bamiwola">
-                     <p><strong>Dr. Bamisaye Olutola</strong> is an International Scholar whose research interests includes Public International
-                        Law, Int'l Human Rights Law, Comparative constitutional and issues around democratisation processes in
-                        emerging democracies. He had his LL.B from the University of Lagos, subsequently called to the Nigerian Bar.
-                        He later proceeded to the prestigious center for Huma Rights, University of Pretotia, South Africa where he had both
-                        his LL.M (Master of Laws) and LL.D (Doctor of Laws). Dr. Odutola has to his credit several published works in learned 
-                        Journals and book both within and outside Nigeria. He has at various times been invited as both speaker and/ or
-                        member of International Conferences , such as the Global Youth Intensive Program, which was held in Seoul, South Korea in
-                        2019. 
-                        Also Dr. Olutola has Often been invited to Media Stations to air his views on burning National issues. He is 
-                        currently a resource person and an Examiner to a Professional Institue in Nigeria.
-                        </p>
-                    </div>
-                 </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+  <?php
+  $team_base = '';
+  $profile = [
+    'title' => 'Consultant, Int\'l Human Rights Law',
+    'name' => 'Dr. Bamisaye Olutola',
+    'image' => '../assets/images/consultant-2.png',
+    'image_alt' => 'Dr. Bamisaye Olutola',
+    'email' => 'info@beulahchambers.org',
+    'education' => [
+      'LL.B (University of Lagos)',
+      'B.L (Nigerian Bar)',
+      'LL.M (Centre for Human Rights, University of Pretoria, South Africa)',
+      'LL.D (Centre for Human Rights, University of Pretoria, South Africa)',
+    ],
+    'memberships' => [],
+    'practice_areas' => [
+      'Human Rights',
+      'Litigation & Arbitration',
+      'Commercial & Corporate Law',
+    ],
+    'bio' => '<p><strong>Dr. Bamisaye Olutola</strong> is an International Scholar whose research interests include Public International Law, Int\'l Human Rights Law, Comparative constitutional law and issues around democratisation processes in emerging democracies.</p><p>He had his LL.B from the University of Lagos and was subsequently called to the Nigerian Bar. He later proceeded to the prestigious Centre for Human Rights, University of Pretoria, South Africa, where he obtained both his LL.M (Master of Laws) and LL.D (Doctor of Laws). Dr. Olutola has to his credit several published works in learned journals and books both within and outside Nigeria.</p><p>He has at various times been invited as speaker and/or member of International Conferences, such as the Global Youth Intensive Program held in Seoul, South Korea in 2019. Dr. Olutola has often been invited to media stations to air his views on burning national issues. He is currently a resource person and an Examiner to a Professional Institute in Nigeria.</p>',
+    'current_slug' => 'bamisaye-olutola',
+  ];
+  include ROOT_PATH . '/app/includes/team-profile-layout.php';
+  ?>
 
         <section class="legal__help ptb--10">
         <i class="fas fa-briefcase"></i><h2 class="briefcase_help">Need Help with with Legal Issues?</h2>
          <button class="botton"><a href="../contact.php">CONTACT US</button></a>
       </section>
-       
+
+
 <!-- Begin: footer -->
 <div class="footer">
     <div class="footer-content">
@@ -178,7 +117,7 @@
           range of Services such as Litigation, Corporate Law, Family Law, Arbitration e.tc. We have a proven track records in these Areas.</p>
          <div class="contact">
              <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Lagos Office:  27 Obafemi Awolowo Way, Ikeja Lagos</span>
-             <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Ogun Office: 171, Lagos Road, Alagbon, Owode-Yewa Ogun</span> 
+             <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Ogun Office: 171, Lagos Road, Alagbon, Owode-Yewa Ogun</span>
              <span><i class="fas fa-phone" aria-hidden="true"></i>  (+234)08080075458</a></span>
              <span><i class="fas fa-globe" aria-hidden="true"></i><a href="https://www.beulahchambers.org"> Beulah Chambers</a></span>
              </div>
@@ -195,20 +134,19 @@
              <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
              <li><a href="../articles.php">Articles</a></li>
          </ul>
-     </div> 
+     </div>
  <div class="footer-section contact-form">
            <h2>Connect With Us</h2>
          <div class="socials">
-            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/bamiwola.hassan" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
      </div>
       </div>
 </div>
-     
+
     <div class="footer-bottom">
-     <p class="copy-right">
-         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https//www.beulahchambers.org">Beulah Chambers</a></p>
+     <p class="copy-right">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Beulah Chambers. All rights reserved. | <a href="https://www.beulahchambers.org">Beulah Chambers</a></p>
     </div>
 </div>
 

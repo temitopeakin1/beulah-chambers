@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Oluseyi-shadare | Beulah Chambers</title>
+    <title>Prof. Oluseyi Shadare | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -17,7 +17,6 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Favicon -->
     <link
       rel="shortcut icon"
       href="../assets/images/favicon.ico"
@@ -26,7 +25,6 @@
   </head>
 
 <body>
-    <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
           <div class="logo">
@@ -47,7 +45,6 @@
               <li><a href="../practice-areas/labour-law.php">Labour Law</a></li>
               <li><a href="../practice-areas/human-rights.php">Human Rights</a></li>
               <li><a href="../practice-areas/commercial-law.php">Commercial Law</a></li>
-              <!-- <li><a href="property-law.html">Property Law</a></li> -->
               <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
               <li>
                 <a href="../practice-areas/intellectual-property.php"
@@ -65,120 +62,57 @@
             </ul>
           </li>
                     <li class="nav__item"><a href="../articles.php" class="nav__link">Articles</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Team <i class="fas fa-chevron-down" style="font-size: 0.8em" ;></i></a>
-                    <ul>
-                    <li><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></li>
-                    <li><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></li>
-                    <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
-                    <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
-                    <li><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></li>
-                    <li><a href="../team/adedapo.php">Adedapo Precious Esq.</a></li>
-                    <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
-                    <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
-                    </ul>
-                    <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li> 
+                    <li class="nav__item"><a href="../team.php" class="nav__link">Team</a></li>
+                    <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li>
                 </ul>
             </div>
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
-            </div> 
+            </div>
         </nav>
     </header>
 
-    <section class="link" id="link">
-    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  Our Team</div>
-    </section>
+  <section class="link" id="link">
+    <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  <a href="../team.php">Our Team</a></div>
+  </section>
 
-
-       <section class="profile ptb--100" id="profile">
-        <div class="container-fluid white section" id="debt">
-            <div class="row">
-              <div class="col">
-                <div class="container">
-                  <div class="row">
-                    <div class="profile_law">
-                      <h1 class="title">Legal Experts Profile</h1>
-                      <h2><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.<h3>(LL.M with Distinction)</h3></a></h2>
-                      <h3>Managing/Principal Partner</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></h2>
-                      <h3>Head, Litigation</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></h2>
-                      <h3>Head, Corporate Law Practice</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/emma.php">Emmanuel Ubah Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/olumide.php">Olumide Elajuku-Wilson Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/adedapo.php">Adedapo Precious, Esq.</a></h2>
-                      <h3>Associate Counsel</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare(Ass.Prof)</a></h2>
-                      <h3>Consultant, Int'l Labour Relations and Law</h3>
-                      <hr class="horizontal">
-                      <h2><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></h2>
-                      <h3>Consultant, Int'l Human Rights Law</h3>
-                      <hr class="horizontal">
-                      </div>
-                      <div class="profile_details">
-                      <img src="../assets/images/shadare.png">
-                      <div class="team-profile" id="team-profile">
-                      <h2 class="name"> Dr. Oluseyi Shadare (Ass. Prof.)</h2>
-                        <h3 class="role">Consultant, Int'l Labour Relations & Law</h3>
-                        <h3 class="email"><a href="mailto: info@beulahchambers.org">info@beulahchambers.org</a></h3>
-                        <h3 class="phone">xxx-xxx-xxxx</h3>
-                      <div class="socials">
-                      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      </div>
-                      <h2 class="practice">Area of Practice</h2>
-                          <h3>Human Rights</h3>
-                            <h3>Labour Law & Public Policy</h3>
-                              <h3>Commercial & Corporate Law</h3>
-                                     <h3>Employment Relations</h3>
-                                  
-                        </div>
-                    </div>
-                    <div class="profiler_bamiwola">
-                     <p><strong>Dr. Oluseyi Shadare (Ass.Prof.)</strong> holds Bachelor of Arts and Master of Industrial Relations
-           degrees from the University of Ibadan, Nigeria. He earned his PhD from the same 
-           University with specialisation in Human Resource Management and a Bachelor of Laws
-            (LLB) degree from University of Lagos. He was called to the Nigerian Bar in 2006. 
-            Seyi is currently a faculty member of the Department of Employment Relations and Human
-             Resource Management, and University of Lagos Business School, Nigeria. Dr Shadare has over 18years 
-             experience in the financial services sector and resigned as a Director from Industrial & General Insurance
-              Plc in 2010. He has extensive experience in the field of Human Resource Management, Industrial Relations,
-               Insurance Marketing, Labour Law & Public Policy. He teaches at the undergraduate, graduate, and executive 
-               levels at the University of Lagos. His research interests are Social Policy (Social Protection), 
-               Human Resource Management, and Employment Relations. He has also published several articles, 
-               book chapters, and conference papers on diverse topics. He is an Associate Member of several professional 
-               bodies including Chartered Institute of Personnel Management of Nigeria (CIPMN), 
-               Chartered Institute of Marketing of Nigeria (CIMN) and is a member of the Nigerian Bar Association (NBA).
-                He was an Assistant Coordinator of the Master of Business Administration (MBA) programme, 
-                University of Lagos between 2012 and 2015, and also coordinated the M.Sc, MILR and MELS programmes 
-                of his department from 2016- 2018. He has also supervised over 100 postgraduate students,
-                 including 2 PhD theses. He is an Associate Professor, and was the Ag. Head, Department of Employment 
-                 Relations and Human Resource Management between 2019 and 2021. He is also an associate lecturer/ 
-                 External examiner to many universities in Nigeria.  Dr Seyi Shadare is a Director in some blue chip 
-                 companies in Nigeria, and he is happily married.
-                        </p>
-                    </div>
-                 </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+  <?php
+  $team_base = '';
+  $profile = [
+    'title' => 'Consultant, Int\'l Labour Relations & Law',
+    'name' => 'Prof. Oluseyi Shadare (Ass. Prof.)',
+    'image' => '../assets/images/consultant-1.png',
+    'image_alt' => 'Prof. Oluseyi Shadare',
+    'email' => 'info@beulahchambers.org',
+    'education' => [
+      'B.A (University of Ibadan)',
+      'Master of Industrial Relations (University of Ibadan)',
+      'PhD (University of Ibadan, Human Resource Management)',
+      'LL.B (University of Lagos)',
+      'B.L (Nigerian Law School, 2006)',
+    ],
+    'memberships' => [
+      'Nigerian Bar Association (NBA)',
+      'Chartered Institute of Personnel Management of Nigeria (CIPMN)',
+      'Chartered Institute of Marketing of Nigeria (CIMN)',
+    ],
+    'practice_areas' => [
+      'Human Rights',
+      'Labour Law & Public Policy',
+      'Commercial & Corporate Law',
+      'Employment Relations',
+    ],
+    'bio' => '<p><strong>Dr. Oluseyi Shadare (Ass.Prof.)</strong> holds Bachelor of Arts and Master of Industrial Relations degrees from the University of Ibadan, Nigeria. He earned his PhD from the same University with specialisation in Human Resource Management and a Bachelor of Laws (LLB) degree from University of Lagos. He was called to the Nigerian Bar in 2006.</p><p>Seyi is currently a faculty member of the Department of Employment Relations and Human Resource Management, and University of Lagos Business School, Nigeria. Dr Shadare has over 18 years experience in the financial services sector and resigned as a Director from Industrial & General Insurance Plc in 2010. He has extensive experience in the field of Human Resource Management, Industrial Relations, Insurance Marketing, Labour Law & Public Policy. He teaches at the undergraduate, graduate, and executive levels at the University of Lagos.</p><p>His research interests are Social Policy (Social Protection), Human Resource Management, and Employment Relations. He has also published several articles, book chapters, and conference papers on diverse topics. He was an Assistant Coordinator of the Master of Business Administration (MBA) programme, University of Lagos between 2012 and 2015, and also coordinated the M.Sc, MILR and MELS programmes of his department from 2016–2018. He has supervised over 100 postgraduate students, including 2 PhD theses. He is an Associate Professor, and was the Ag. Head, Department of Employment Relations and Human Resource Management between 2019 and 2021. He is also an associate lecturer and External examiner to many universities in Nigeria. Dr Seyi Shadare is a Director in some blue chip companies in Nigeria.</p>',
+    'current_slug' => 'oluseyi-shadare',
+  ];
+  include ROOT_PATH . '/app/includes/team-profile-layout.php';
+  ?>
 
         <section class="legal__help ptb--10">
         <i class="fas fa-briefcase"></i><h2 class="briefcase_help">Need Help with with Legal Issues?</h2>
          <button class="botton"><a href="../contact.php">CONTACT US</button></a>
       </section>
-       
+
 
 <!-- Begin: footer -->
 <div class="footer">
@@ -189,7 +123,7 @@
           range of Services such as Litigation, Corporate Law, Family Law, Arbitration e.tc. We have a proven track records in these Areas.</p>
          <div class="contact">
              <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Lagos Office:  27 Obafemi Awolowo Way, Ikeja Lagos</span>
-             <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Ogun Office: 171, Lagos Road, Alagbon, Owode-Yewa Ogun</span> 
+             <span><i class="fas fa-map-marker" aria-hidden="true"></i>  Ogun Office: 171, Lagos Road, Alagbon, Owode-Yewa Ogun</span>
              <span><i class="fas fa-phone" aria-hidden="true"></i>  (+234)08080075458</a></span>
              <span><i class="fas fa-globe" aria-hidden="true"></i><a href="https://www.beulahchambers.org"> Beulah Chambers</a></span>
              </div>
@@ -206,20 +140,19 @@
              <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
              <li><a href="../articles.php">Articles</a></li>
          </ul>
-     </div> 
+     </div>
  <div class="footer-section contact-form">
            <h2>Connect With Us</h2>
          <div class="socials">
-            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/bamiwola.hassan" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
      </div>
       </div>
 </div>
-     
+
     <div class="footer-bottom">
-     <p class="copy-right">
-         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https//www.beulahchambers.org">Beulah Chambers</a></p>
+     <p class="copy-right">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Beulah Chambers. All rights reserved. | <a href="https://www.beulahchambers.org">Beulah Chambers</a></p>
     </div>
 </div>
 

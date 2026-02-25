@@ -2,6 +2,6 @@
 
 define("ROOT_PATH", realpath(dirname(__FILE__)));
 
-define("BASE_URL", "http://localhost/beulahchambers");  
+define("BASE_URL", "http://localhost/beulah-chambers");  
 
  

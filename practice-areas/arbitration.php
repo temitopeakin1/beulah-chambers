@@ -65,17 +65,7 @@
             </ul>
           </li>
                     <li class="nav__item"><a href="../articles.php" class="nav__link">Articles</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Team <i class="fas fa-chevron-down" style="font-size: 0.8em" ;></i>
-                    </a>
-                  <ul>
-                    <li><a href="../team/kehinde-bamiwola.php">K.H Bamiwola Esq.</a></li>
-                    <li><a href="../team/joy-ofuzor.php">Joy A. Ofuzor</a></li>
-                    <li><a href="../team/abiodun-fadipe.php">Abiodun Fadipe Esq.</a></li>
-                    <li><a href="../team/olamijulo.php">O.G Olamijulo Esq</a></li>
-                    <li><a href="../team/emma.php">Emmanuel Ubah Esq</a></li>
-                    <li><a href="../team/oluseyi-shadare.php">Dr. Oluseyi Shadare</a></li>
-                    <li><a href="../team/bamisaye-olutola.php">Dr. Bamisaye Olutola</a></li>
-                    </ul>
+                    <li class="nav__item"><a href="../team.php" class="nav__link">Team</a></li>
                     <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li> 
                 </ul>
             </div>
