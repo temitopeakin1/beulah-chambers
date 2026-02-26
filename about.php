@@ -48,7 +48,7 @@
 
 <!-- begin:first-section_about -->
 <section class="first-section_about ptb--100" id="first-section_about">
-  <div class="container fluid white section">
+  <div class="container-fluid white section">
     <div class="row">
       <div class="col">
         <div class="container">
@@ -82,8 +82,8 @@
 </section>
 
 <!-- begin: vision -->
-<section clasa="second-section_about ptb--100" id="second-section_about">
-  <div class="container fluid white section">
+<section class="second-section_about ptb--100" id="second-section_about">
+  <div class="container-fluid white section">
     <div class="row">
       <div class="col">
         <div class="container">
@@ -102,6 +102,37 @@
   </div>
 </section>
 <!-- end: vision -->
+
+<!-- begin: published works (Managing Partner's books) – same layout as Vision -->
+<section class="published-works section second-section_about ptb--100" id="published-works">
+  <div class="container-fluid white section">
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="vision-text">
+            <h2><i class="fas fa-book"></i> Published Works</h2>
+            <p>Our Managing Partner has authored the following publications. These works reflect our firm’s commitment to thought leadership in labour law, human rights, and related fields.</p>
+            <p>You can find these titles through major booksellers and academic outlets. For enquiries about the publications, please <a href="contact.php">contact us</a>.</p>
+          </div>
+          <div class="vision-image published-works__books-wrap">
+            <div class="published-works__books">
+              <div class="published-works__card">
+                <div class="published-works__cover">
+                  <img src="assets/images/kehinde-1.jpeg" alt="Book by Managing Partner">
+                </div>
+              </div>
+              <div class="published-works__card">
+                <div class="published-works__cover">
+                  <img src="assets/images/kehinde-2.jpeg" alt="Book by Managing Partner">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Begin: footer -->
   <div class="footer">

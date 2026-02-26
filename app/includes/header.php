@@ -40,8 +40,12 @@
                     <li class="nav__item"><a href="contact.php" class="nav__link">Contact</a></li> 
                 </ul>
             </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+            <div class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger" aria-hidden="true">
+                    <span class="hamburger__line hamburger__line--1"></span>
+                    <span class="hamburger__line hamburger__line--2"></span>
+                    <span class="hamburger__line hamburger__line--3"></span>
+                </span>
             </div> 
         </nav>
     </header>

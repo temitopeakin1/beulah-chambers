@@ -1,6 +1,6 @@
 <?php
 $TEAM_MEMBERS_LIST = [
-  ['slug' => 'kehinde-bamiwola', 'name' => 'K. H Bamiwola Esq.', 'image' => 'assets/images/bamiwola.png', 'title' => 'Partner', 'practice_areas' => ['Labour Law', 'Commercial & Corporate Law', 'Property Law', 'Chieftaincy Matters', 'Intellectual Property Law']],
+  ['slug' => 'kehinde-bamiwola', 'name' => 'K. H Bamiwola Esq.', 'image' => 'assets/images/bamiwola.png', 'title' => 'Managing/Principal Partner', 'practice_areas' => ['Labour Law', 'Commercial & Corporate Law', 'Property Law', 'Chieftaincy Matters', 'Intellectual Property Law']],
   ['slug' => 'oluwaseyi-odewole', 'name' => 'Oluwaseyi Odewole Esq.', 'image' => 'assets/images/head-chambers.jpeg', 'title' => 'Head of Chambers', 'practice_areas' => ['Criminal Law & Litigation', 'Civil Litigation', 'Real Estate', 'Corporate Law', 'Family Law', 'Labour Law', 'Telecommunications (Mast Management)']],
   ['slug' => 'alejo-nimotallahi', 'name' => 'Alejo Nimotallahi Aderoju, AICMC Esq.', 'image' => 'assets/images/deputy-head-chamber.jpeg', 'title' => 'Deputy Head of Chambers', 'practice_areas' => ['Labour and Employment Matters', 'Corporate Law Practice', 'Commercial Dispute Resolution', 'Litigation']],
   ['slug' => 'morakinyo-victoria', 'name' => 'Morakinyo, Victoria Afolake, AICMC Esq.', 'image' => 'assets/images/associate-partner-1.jpeg', 'title' => 'Associate Partner', 'practice_areas' => ['Labour and Employment Matters', 'Litigation', 'Legal Research', 'Corporate Law Practice', 'Dispute Resolution']],
