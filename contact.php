@@ -33,48 +33,44 @@
   <!-- header include -->
   <?php include ROOT_PATH . '/app/includes/header.php'; ?>
   
-   <!--Begin :About Image-->   
+   <!-- Begin: Contact hero -->
 <section class="contact-hero" id="contact__hero">
-  <h1>Contact Us</h1>
-  <a href="contact.php" class="contactButton">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a>
+  <h1>Contact</h1>
+  <a href="#" class="contactButton js-open-evaluation-modal">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a>
 </section>
+   <!-- End: Contact hero -->
 
-
-<!--End: About Image-->
-
-<!-- contact area start -->
-<div class="contact-area ptb--100">
-    <div class="container">
-        <section class="contact-inner" id="contact">
-            <div class="section-title text-black">
-                <h2>Contact Info</h2>
-            </div>
-            <div class="contact-flex-container" id="contact-flex_container">
-                <div class="contact-address">
-                    <h4 class="contact-title">Contact Details</h4>
-                    <p>Lagos | Ogun </p>
-                    <ul>
-                        <li class="h-addres"><i class="fa fa-home"></i> 27 Obafemi Awolowo Way, Ikeja Lagos</li>
-                        <li class="h-addres"><i class="fa fa-home"></i> 171, Lagos Road, Alagbon, Owode-Yewa Ogun</li>
-                        <li><i class="fa fa-phone"></i>(+234)08080075458</li>
-                        <li><i class="fa fa-envelope"></i><a href="mailto:info@beulahchambers.org">info@beulahchambers.org</a></li>
-                    </ul>
-                </div>
-                <div class="contact-form">
-                    <h4 class="contact-title">Fill out the form below to get in touch</h4>
-                    <form method="post" action="email.php">
-                        <input type="text" class="input" name="name"  placeholder="Your Name *">
-                        <input type="email" class="input" name="email"  placeholder="Your Email address*">
-                        <input type="phone" class="input" name="phone"  placeholder="Phone number*">
-                        <textarea name="msg" class="input" id="msg" placeholder="Case Description*"></textarea>
-                        <input type="submit" id="send" value="Submit here">
-                    </form>
-                </div>
-            </div>
-        </section>
-    </div>
+   <!-- Contact area -->
+<div class="contact-area ptb--100" id="contact-area">
+  <div class="contact-area__container">
+    <section class="contact-inner" id="contact">
+      <h2 class="contact-inner__title">Contact Info</h2>
+      <div class="contact-flex-container">
+        <div class="contact-address">
+          <h3 class="contact-title">Contact Details</h3>
+          <p class="contact-address__locations">Lagos | Ogun</p>
+          <ul class="contact-address__list">
+            <li class="h-addres"><i class="fa fa-map-marker" aria-hidden="true"></i> 27 Obafemi Awolowo Way, Ikeja Lagos</li>
+            <li class="h-addres"><i class="fa fa-map-marker" aria-hidden="true"></i> 171, Lagos Road, Alagbon, Owode-Yewa Ogun</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+23408080075458">(+234) 080 800 75458</a></li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@beulahchambers.org">info@beulahchambers.org</a></li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <h3 class="contact-title">Fill out the form below to get in touch</h3>
+          <form method="post" action="email.php" class="contact-form__form">
+            <input type="text" class="input" name="name" placeholder="Your Name *" required>
+            <input type="email" class="input" name="email" placeholder="Your Email address *" required>
+            <input type="tel" class="input" name="phone" placeholder="Phone number *" required>
+            <textarea name="msg" class="input contact-form__textarea" id="msg" placeholder="Case Description *" rows="4" required></textarea>
+            <button type="submit" name="send" class="contact-form__submit" id="send">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
 </div>
-<!-- contact area end -->
+   <!-- End: Contact area -->
 <!-- Begin: footer -->
 <?php include ROOT_PATH . '/app/includes/footer.php'; ?>
 

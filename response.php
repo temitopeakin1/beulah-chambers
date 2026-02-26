@@ -36,7 +36,7 @@
    <!--Begin :About Image-->   
 <section class="contact-hero" id="contact__hero">
   <h1>Contact Us</h1>
-  <a href="contact-us.php" class="contactButton">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a>
+  <a href="#" class="contactButton js-open-evaluation-modal">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a>
 </section>
 
 

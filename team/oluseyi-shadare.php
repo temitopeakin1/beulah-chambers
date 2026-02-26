@@ -25,52 +25,7 @@
   </head>
 
 <body>
-    <header class="l-header">
-        <nav class="nav bd-grid">
-          <div class="logo">
-            <a href="../index.php"
-              ><img src="../assets/images/logo2.png" alt="Logo"
-            /></a>
-          </div>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="../index.php" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="../about.php" class="nav__link">About</a></li>
-                      <li class="nav__item">
-            <a href="#" class="nav__link"
-              >Practice Areas
-              <i class="fas fa-chevron-down" style="font-size: 0.8em" ;></i
-            ></a>
-            <ul>
-              <li><a href="../practice-areas/labour-law.php">Labour Law</a></li>
-              <li><a href="../practice-areas/human-rights.php">Human Rights</a></li>
-              <li><a href="../practice-areas/commercial-law.php">Commercial Law</a></li>
-              <li><a href="../practice-areas/arbitration.php">Arbitration</a></li>
-              <li>
-                <a href="../practice-areas/intellectual-property.php"
-                  >Intellectual Property Law</a
-                >
-              </li>
-              <li><a href="../practice-areas/family-law.php">Family Law</a></li>
-              <li><a href="../practice-areas/election-petitions.php">Election Petitions</a></li>
-              <li><a href="../practice-areas/criminal-law.php">Criminal Law</a></li>
-              <li>
-                <a href="../practice-areas/banking-and-debt-recovery.php"
-                  >Banking & Debt Recovery</a
-                >
-              </li>
-            </ul>
-          </li>
-                    <li class="nav__item"><a href="../articles.php" class="nav__link">Articles</a></li>
-                    <li class="nav__item"><a href="../team.php" class="nav__link">Team</a></li>
-                    <li class="nav__item"><a href="../contact.php" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
-    </header>
+  <?php include ROOT_PATH . '/app/includes/header.php'; ?>
 
   <section class="link" id="link">
     <div class="text"><a href="../index.php">Home</a>  <span><i class="fa fa-long-arrow-right"></i></span>  <a href="../team.php">Our Team</a></div>
@@ -80,7 +35,7 @@
   $team_base = '';
   $profile = [
     'title' => 'Consultant, Int\'l Labour Relations & Law',
-    'name' => 'Prof. Oluseyi Shadare (Ass. Prof.)',
+    'name' => 'Prof. Oluseyi Shadare',
     'image' => '../assets/images/consultant-1.png',
     'image_alt' => 'Prof. Oluseyi Shadare',
     'email' => 'info@beulahchambers.org',
@@ -102,7 +57,7 @@
       'Commercial & Corporate Law',
       'Employment Relations',
     ],
-    'bio' => '<p><strong>Dr. Oluseyi Shadare (Ass.Prof.)</strong> holds Bachelor of Arts and Master of Industrial Relations degrees from the University of Ibadan, Nigeria. He earned his PhD from the same University with specialisation in Human Resource Management and a Bachelor of Laws (LLB) degree from University of Lagos. He was called to the Nigerian Bar in 2006.</p><p>Seyi is currently a faculty member of the Department of Employment Relations and Human Resource Management, and University of Lagos Business School, Nigeria. Dr Shadare has over 18 years experience in the financial services sector and resigned as a Director from Industrial & General Insurance Plc in 2010. He has extensive experience in the field of Human Resource Management, Industrial Relations, Insurance Marketing, Labour Law & Public Policy. He teaches at the undergraduate, graduate, and executive levels at the University of Lagos.</p><p>His research interests are Social Policy (Social Protection), Human Resource Management, and Employment Relations. He has also published several articles, book chapters, and conference papers on diverse topics. He was an Assistant Coordinator of the Master of Business Administration (MBA) programme, University of Lagos between 2012 and 2015, and also coordinated the M.Sc, MILR and MELS programmes of his department from 2016–2018. He has supervised over 100 postgraduate students, including 2 PhD theses. He is an Associate Professor, and was the Ag. Head, Department of Employment Relations and Human Resource Management between 2019 and 2021. He is also an associate lecturer and External examiner to many universities in Nigeria. Dr Seyi Shadare is a Director in some blue chip companies in Nigeria.</p>',
+    'bio' => '<p><strong>Professor Oluseyi Shadare (Ass.Prof.)</strong> holds Bachelor of Arts and Master of Industrial Relations degrees from the University of Ibadan, Nigeria. He earned his PhD from the same University with specialisation in Human Resource Management and a Bachelor of Laws (LLB) degree from University of Lagos. He was called to the Nigerian Bar in 2006.</p><p>Prof. Seyi is currently a faculty member of the Department of Employment Relations and Human Resource Management, and University of Lagos Business School, Nigeria. Prof. Shadare has over 18 years experience in the financial services sector and resigned as a Director from Industrial & General Insurance Plc in 2010. He has extensive experience in the field of Human Resource Management, Industrial Relations, Insurance Marketing, Labour Law & Public Policy. He teaches at the undergraduate, graduate, and executive levels at the University of Lagos.</p><p>His research interests are Social Policy (Social Protection), Human Resource Management, and Employment Relations. He has also published several articles, book chapters, and conference papers on diverse topics. He was an Assistant Coordinator of the Master of Business Administration (MBA) programme, University of Lagos between 2012 and 2015, and also coordinated the M.Sc, MILR and MELS programmes of his department from 2016–2018. He has supervised over 100 postgraduate students, including 2 PhD theses. He is an Associate Professor, and was the Ag. Head, Department of Employment Relations and Human Resource Management between 2019 and 2021. He has also held the position of an External examiner to many universities in Nigeria. Prof. Seyi Shadare is a Director in some blue chip companies in Nigeria.</p>',
     'current_slug' => 'oluseyi-shadare',
   ];
   include ROOT_PATH . '/app/includes/team-profile-layout.php';
@@ -110,7 +65,7 @@
 
         <section class="legal__help ptb--10">
         <i class="fas fa-briefcase"></i><h2 class="briefcase_help">Need Help with with Legal Issues?</h2>
-         <button class="botton"><a href="../contact.php">CONTACT US</button></a>
+         <button class="botton"><a href="#" class="js-open-evaluation-modal">CONTACT US</a></button>
       </section>
 
 
@@ -156,6 +111,7 @@
     </div>
 </div>
 
+<?php include ROOT_PATH . '/app/includes/evaluation-modal.php'; ?>
 <button id="btnScrollToTop">
   <i class="material-icons">arrow_upward</i>
 </button>

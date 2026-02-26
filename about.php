@@ -41,8 +41,8 @@
   
 <!--Begin :About Image-->   
 <section class="about-hero" id="about__hero">
-  <h1>About Us</h1>
-  <a href="about.php" class="aboutButton">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a>
+  <h1>About</h1>
+  <a href="#" class="aboutButton js-open-evaluation-modal">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a>
 </section>      
 <!--End: About Image-->
 
@@ -103,32 +103,28 @@
 </section>
 <!-- end: vision -->
 
-<!-- begin: published works (Managing Partner's books) – same layout as Vision -->
-<section class="published-works section second-section_about ptb--100" id="published-works">
+<!-- begin: published works – books on top, content below, centred -->
+<section class="published-works section ptb--100" id="published-works">
   <div class="container-fluid white section">
-    <div class="row">
-      <div class="col">
-        <div class="container">
-          <div class="vision-text">
-            <h2><i class="fas fa-book"></i> Published Works</h2>
-            <p>Our Managing Partner has authored the following publications. These works reflect our firm’s commitment to thought leadership in labour law, human rights, and related fields.</p>
-            <p>You can find these titles through major booksellers and academic outlets. For enquiries about the publications, please <a href="contact.php">contact us</a>.</p>
+    <div class="published-works__inner">
+      <div class="published-works__books-wrap">
+        <div class="published-works__books">
+          <div class="published-works__card">
+            <div class="published-works__cover">
+              <img src="assets/images/kehinde-1.jpeg" alt="Book by Managing Partner">
+            </div>
           </div>
-          <div class="vision-image published-works__books-wrap">
-            <div class="published-works__books">
-              <div class="published-works__card">
-                <div class="published-works__cover">
-                  <img src="assets/images/kehinde-1.jpeg" alt="Book by Managing Partner">
-                </div>
-              </div>
-              <div class="published-works__card">
-                <div class="published-works__cover">
-                  <img src="assets/images/kehinde-2.jpeg" alt="Book by Managing Partner">
-                </div>
-              </div>
+          <div class="published-works__card">
+            <div class="published-works__cover">
+              <img src="assets/images/kehinde-2.jpeg" alt="Book by Managing Partner">
             </div>
           </div>
         </div>
+      </div>
+      <div class="published-works__content">
+        <h2 class="published-works__title"><i class="fas fa-book"></i> Published Works</h2>
+        <p class="published-works__intro">Our Managing Partner has authored the following publications. These works reflect our firm’s commitment to thought leadership in labour law, human rights, and related fields.</p>
+        <p class="published-works__text">You can find these titles through major booksellers and academic outlets. For enquiries about the publications, please <a href="contact.php">contact us</a>.</p>
       </div>
     </div>
   </div>
@@ -177,6 +173,7 @@
     </div>
 </div>
 
+<?php include ROOT_PATH . '/app/includes/evaluation-modal.php'; ?>
 <button id="btnScrollToTop">
   <i class="material-icons">arrow_upward</i>
 </button>

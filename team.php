@@ -25,7 +25,7 @@
   <?php include ROOT_PATH . '/app/includes/header.php'; ?>
 
   <section class="about-hero" id="about__hero">
-    <h1>Our Team</h1>
+    <h1>Team</h1>
   </section>
 
   <section class="team-page-section">

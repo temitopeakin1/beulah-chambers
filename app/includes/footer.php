@@ -42,3 +42,5 @@
          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https//www.beulahchambers.org">Beulah Chambers</a></p>
     </div>
 </div>
+
+<?php include __DIR__ . '/evaluation-modal.php'; ?>

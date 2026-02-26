@@ -233,7 +233,7 @@
      <section class="fourth-section_home ptb--100">
       <div class="text-wrapper">
         <h2 class="hero__headline">Your Victory is Ours as well</h2>
-        <a href="contact.php" class="button"
+        <a href="#" class="button js-open-evaluation-modal"
           >Free Evaluation  <i class="fas fa-balance-scale"></i
         ></a>
       </div>
