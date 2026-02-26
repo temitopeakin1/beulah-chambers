@@ -113,7 +113,6 @@ $posts = selectAll('posts', ['published' => 1]);
   </button>
 
 
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/slider.js"></script>
     <!-- swiper js -->

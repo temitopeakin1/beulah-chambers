@@ -1,5 +1,8 @@
      <!-- Begin: footer -->
-
+<?php
+// Footer links should work from root and subdirectories (practice-areas/, team/, etc.)
+// Use BASE_URL so all hrefs are absolute to the site root.
+?>
 <div class="footer">
     <div class="footer-content">
      <div class="footer-section about">
@@ -16,15 +19,15 @@
      <div class="footer-section links">
          <h2>Quick Links</h2>
          <ul>
-             <li><a href="index.php">Home</a></li>
-             <li><a href="about.php">About</a></li>
-             <li><a href="team.php">Team</a></li>
-             <li><a href="practice-areas/labour-law.php">Labour Law</a></li>
-             <li><a href="practice-areas/commercial-law.php">Commercial Law</a></li>
-             <li><a href="practice-areas/intellectual-property-law.php">Intellectual Property Law</a></li>
-             <li><a href="practice-areas/family-law.php">Family Law</a></li>
-             <li><a href="practice-areas/arbitration.php">Arbitration</a></li>
-             <li><a href="articles.php">Articles</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/index.php">Home</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/about.php">About</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/team.php">Team</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/labour-law.php">Labour Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/commercial-law.php">Commercial Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/intellectual-property.php">Intellectual Property Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/family-law.php">Family Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/arbitration.php">Arbitration</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/articles.php">Articles</a></li>
          </ul>
      </div> 
  <div class="footer-section contact-form">
@@ -39,8 +42,15 @@
      
     <div class="footer-bottom">
      <p class="copy-right"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https//www.beulahchambers.org">Beulah Chambers</a></p>
+         Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+         All rights reserved | <a href="https://www.beulahchambers.org">Beulah Chambers</a></p>
     </div>
 </div>
+
+<?php
+$reveal_base = (strpos($_SERVER['REQUEST_URI'], '/practice-areas/') !== false || strpos($_SERVER['REQUEST_URI'], '/team/') !== false) ? '../' : '';
+?>
+<script src="https://unpkg.com/scrollreveal@4"></script>
+<script src="<?php echo $reveal_base; ?>assets/js/reveal.js"></script>
 
 <?php include __DIR__ . '/evaluation-modal.php'; ?>

@@ -425,8 +425,8 @@ html.nav-open {
 }
 @media screen and (min-width: 992px) {
   .nav {
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 @media screen and (min-width: 768px) {

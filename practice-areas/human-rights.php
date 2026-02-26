@@ -120,7 +120,8 @@
 <button id="btnScrollToTop">
   <i class="material-icons">arrow_upward</i>
 </button>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script src="../assets/js/reveal.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/scroll.js"></script>
 </body>

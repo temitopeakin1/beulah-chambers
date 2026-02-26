@@ -18,7 +18,6 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://unpkg.com/scrollreveal@4"></script>
     <!-- Favicon -->
     <link rel="shortcut icon"
       href="assets/images/favicon.ico"
@@ -311,6 +310,5 @@ s0.parentNode.insertBefore(s1,s0);
     <script src="assets/js/main.js"></script>
     <script src="assets/js/hero-slider.js"></script>
     <script src="assets/js/scroll.js"></script>
-    <script src="assets/js/reveal.js"></script>  
 </body>
 </html>

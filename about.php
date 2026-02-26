@@ -178,7 +178,6 @@
   <i class="material-icons">arrow_upward</i>
 </button>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/slider.js"></script>
     <!-- swiper js -->

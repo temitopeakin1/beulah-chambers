@@ -57,7 +57,6 @@
 </button>
 
 
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/scroll.js"></script>
