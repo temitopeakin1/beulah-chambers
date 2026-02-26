@@ -41,7 +41,7 @@
 </div>
      
     <div class="footer-bottom">
-     <p class="copy-right"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+     <p class="copy-right">
          Copyright &copy;<script>document.write(new Date().getFullYear());</script>
          All rights reserved | <a href="https://www.beulahchambers.org">Beulah Chambers</a></p>
     </div>

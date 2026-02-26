@@ -61,14 +61,13 @@ $posts = selectAll('posts', ['published' => 1]);
 <!--Begin :About Image-->   
 <section class="articles-hero" id="articles__hero">
   <h1>Articles</h1>
-  <a href="#" class="articlesButton js-open-evaluation-modal">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a>
+  <!-- <a href="#" class="articlesButton js-open-evaluation-modal">Start a Free Evaluation Today <i class="fas fa-balance-scale"></i></a> -->
 </section>
        
        
 <!--End: About Image-->
 
 <!-- content -->
-
 <div class="content clearfix">
 <div class="latest-post"><?php echo $postsTitle; ?></div>
 <div class="main-content">  

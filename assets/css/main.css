@@ -2110,7 +2110,7 @@ html.nav-open {
 
 .footer .footer-content .links ul a:hover {
   text-decoration: none;
-  /* color: #ff0000; */
+  color: #ff0000;
 }
 
 .footer .footer-bottom {
@@ -2118,8 +2118,6 @@ html.nav-open {
   color: #ffffff;
   min-height: 50px;
   width: calc(100% + 2rem);
-  margin-left: -1rem;
-  margin-right: -1rem;
   text-align: center;
   position: relative;
   display: flex;
@@ -2916,7 +2914,7 @@ html.nav-open {
 .published-works__books {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: .2rem;
   align-items: start;
   justify-items: center;
   width: 100%;
@@ -2933,7 +2931,7 @@ html.nav-open {
 .published-works__cover {
   overflow: hidden;
   border-radius: 5px;
-  aspect-ratio: 2 / 3;
+  /* aspect-ratio: 2 / 3; */
   background: #eee;
 }
 
