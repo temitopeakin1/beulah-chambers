@@ -50,6 +50,7 @@
                 <h2><a href="../practice-areas/election-petitions.php">Election Petitions </a></h2>
                 <h2><a href="../practice-areas/criminal-law.php">Criminal Law</a></h2>
                 <h2><a href="../practice-areas/banking-and-debt-recovery.php">Banking & Debt Recovery </a></h2>
+                <h2><a href="../practice-areas/real-estate-land.php">Real Estate & Land Matters</a></h2>
               </div>
               <div class="right__arbitration">
                 <img src="../assets/images/commercial.jpg">

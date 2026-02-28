@@ -37,14 +37,14 @@
   $team_base = '';
   $profile = [
     'title' => 'Head of Chambers',
-    'name' => 'Oluwaseyi Odewole Esq.',
+    'name' => 'Oluwaseyi Odewole Esq. MILCS.',
     'image' => '../assets/images/head-chambers.jpeg',
     'image_alt' => 'Oluwaseyi Odewole',
     'education' => [
       'LL.B (Ekiti State University)',
       'B.L (Nigerian Law School, Yenagoa, Bayelsa State)',
     ],
-    'memberships' => ['Nigerian Bar Association'],
+    'memberships' => ['Nigerian Bar Association', 'Member, Institute of Leadership, Coaching and Strategy'],
     'practice_areas' => [
       'Criminal Law & Litigation',
       'Civil Litigation',
@@ -54,7 +54,7 @@
       'Labour Law',
       'Telecommunications (Mast Management)',
     ],
-    'bio' => '<p><strong>Oluwaseyi Odewole Esq.</strong> is the Head of Chambers at Beulah Chambers (K.H Bamiwola & Co), a leading law firm in Nigeria. He is a native of Kwara State, born in Lagos State. He studied Law at Ekiti State University where he obtained his Bachelor of Laws degree and was thereafter called to the Nigerian Bar after the successful completion of his one-year compulsory programme at the Nigerian Law School, Yenagoa, Bayelsa State.</p><p>He began his career at Abayomi Iyasele & Associates, Lagos, from where he cut his teeth in advocacy practice and subsequently rose from NYSC Associate to Head of Chamber through his hard work, resilience and intellectual performance before moving to K.H Bamiwola & Co, where he has continued the improvement and development of the firm and himself. He is a member of the Nigerian Bar Association.</p>',
+    'bio' => '<p><strong>Oluwaseyi Odewole Esq. MILCS.</strong> is a Senior Counsel I, and currently the Head of Chambers at Beulah Chambers (K.H Bamiwola & Co), a leading law firm in Nigeria. He is a native of Kwara State, born in Lagos State. He studied Law at Ekiti State University where he obtained his Bachelor of Laws degree and was thereafter called to the Nigerian Bar after the successful completion of his one-year compulsory programme at the Nigerian Law School, Yenagoa, Bayelsa State.</p><p>He began his career at Abayomi Iyasele & Associates, Lagos, from where he cut his teeth in advocacy practice and subsequently rose from NYSC Associate to Head of Chamber through his hard work, resilience and intellectual performance before moving to K.H Bamiwola & Co, where he has continued the improvement and development of the firm and himself. He is a member of the Nigerian Bar Association.</p>',
     'current_slug' => 'oluwaseyi-odewole',
   ];
   include ROOT_PATH . '/app/includes/team-profile-layout.php';

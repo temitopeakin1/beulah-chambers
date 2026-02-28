@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Labour-Law | Beulah Chambers</title>
+    <title>Real Estate and Land Matters | Beulah Chambers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -28,9 +28,9 @@
 <body>
   <?php include ROOT_PATH . '/app/includes/header.php'; ?>
 
-  <!-- first section arbitration --> 
+  <!-- first section arbitration -->
   <section class="link ptb--200" id="link">
-    <div class="text"><a href="../index.php">Home</a> <i class="fa fa-long-arrow-right"></i> <a href="#">Practice-Areas</a> <i class="fa fa-long-arrow-right"></i> Labour Law</div>
+    <div class="text"><a href="../index.php">Home</a> <i class="fa fa-long-arrow-right"></i> <a href="#">Practice-Areas</a> <i class="fa fa-long-arrow-right"></i> Real Estate and Land Matters</div>
 </section>
 <!-- End : first-section arbitration -->
 
@@ -41,7 +41,7 @@
                 <div class="container">
               <div class="left__arbitration">
                 <h1 class="title">Practice Areas</h1>
-                <h2><a href="../practice-areas/labour-law.php" class="nav__link active">Labour Law</a></h2>
+                <h2><a href="../practice-areas/labour-law.php">Labour Law</a></h2>
                 <h2><a href="../practice-areas/human-rights.php">Human Rights</a></h2>
                 <h2><a href="../practice-areas/commercial-law.php">Commercial Law</a></h2>
                 <h2><a href="../practice-areas/arbitration.php">Arbitration</a></h2>
@@ -50,19 +50,19 @@
                 <h2><a href="../practice-areas/election-petitions.php">Election Petitions </a></h2>
                 <h2><a href="../practice-areas/criminal-law.php">Criminal Law</a></h2>
                 <h2><a href="../practice-areas/banking-and-debt-recovery.php">Banking & Debt Recovery </a></h2>
-                <h2><a href="../practice-areas/real-estate-land.php">Real Estate & Land Matters</a></h2>
+                <h2><a href="../practice-areas/real-estate-land.php" class="nav__link active">Real Estate & Land Matters</a></h2>
               </div>
               <div class="right__arbitration">
-                <img src="../assets/images/law-1.jpg">
-                <h1>Labour Law</h1>
+                <img src="../assets/images/real-estate.jpg">
+                <h1>Real Estate and Land Matters</h1>
                 <p>
-                  <strong>Labour Law</strong> is a branch of law that deals with the relationship between employers, employees, and labour unions. 
-                  As Nigeria's sought out Law Firm, KH Bamiwola & Co primary goal is to protect the rights of workers and to establish a framework for fair and equitable treatment in the workplace.
-                  This includes regulations and guidelines regarding wages, hours of work, safety and health standards, and the right to form and join unions.
-                  At Beulah Chamber with Clarity we prepare out the legal requirements for employment contracts, including the terms and conditions of employment, and the rights and responsibilities
-                  of both employers and employees.
-                  We also engage in issues related to issues such as workplace discrimination and harassment, workplace safety and health, and workers' compensation. 
-                  At <em><strong>KH Bamiwola & Co </strong></em>we ensure that employees are treated fairly and that their rights are protected. 
+                  <strong>Real estate and land law</strong> regulates the ownership, use, transfer, and development of land and property. At Beulah Chambers, we provide comprehensive legal advisory and representation services across a broad spectrum of property and land-related matters.
+                </p>
+                <p>
+                Our services include advising on property acquisitions and disposals, lease negotiations and drafting, title verification and due diligence, land documentation and perfection of title, regulatory compliance, and dispute resolution. We also represent clients in land and property litigation, including recovery of premises, tenancy matters, and boundary or ownership disputes.
+                </p>
+                <p>
+                  Our practice spans both commercial and residential real estate. We work closely with individuals, families, investors, and corporate clients to safeguard their property interests and ensure that all transactions comply with applicable legal and procedural requirements in Nigeria.
                 </p>
             </div>
           </div>

@@ -43,6 +43,7 @@
       'B.L Nigerian Law School, 2024 set (graduated top 19%)',
     ],
     'memberships' => [
+      'Nigerian Bar Association (NBA)',
       'Institute of Chartered Mediators and Conciliators (ICMC)',
     ],
     'practice_areas' => [
@@ -51,7 +52,7 @@
       'Commercial Dispute Resolution',
       'Litigation',
     ],
-    'bio' => '<p><strong>Alejo Nimotallahi Aderoju, AICMC Esq.</strong>, is an astute legal practitioner with a focus on Labour and Employment Matters, Corporate Law Practice, and Commercial Dispute Resolution. She holds an LL.B (Hons) degree from Lagos State University and graduated in the top 19% at the Nigerian Law School, 2024 set.</p><p>During her undergraduate studies, she actively participated in several advocacy competitions and served in various leadership capacities, including being a four-time Scribe of her student\'s chamber and an active member of the National Union of Lagos State Students\' Parliamentary Council, earning her numerous awards and accolades.</p><p>As a distinguished member of the Institute of Chartered Mediators and Conciliators, Nimotallahi currently heads the Litigation and Corporate Dept. at K.H. Bamiwola & Co. (Beulah Chambers), a leading commercial law firm in Nigeria providing cutting-edge integrated legal services to clients with diverse portfolios.</p>',
+    'bio' => '<p><strong>Alejo Nimotallahi Aderoju, AICMC Esq.</strong>, is an astute legal practitioner with a focus on Labour and Employment Matters, Corporate Law Practice, and Commercial Dispute Resolution. She holds an LL.B (Hons) degree from Lagos State University and graduated in the top 19% at the Nigerian Law School, 2024 set.</p><p>During her undergraduate studies, she actively participated in several advocacy competitions and served in various leadership capacities, including being a four-time Scribe of her student\'s chamber and an active member of the National Union of Lagos State Students\' Parliamentary Council, earning her numerous awards and accolades.</p><p>As a distinguished member of the Institute of Chartered Mediators and Conciliators, Nimotallahi is a Senior Counsel I,  and currently heads the Litigation and Corporate Dept. at K.H. Bamiwola & Co. (Beulah Chambers), a leading commercial law firm in Nigeria providing cutting-edge integrated legal services to clients with diverse portfolios.</p>',
     'current_slug' => 'alejo-nimotallahi',
   ];
   include ROOT_PATH . '/app/includes/team-profile-layout.php';

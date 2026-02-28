@@ -35,7 +35,7 @@
   $team_base = '';
   $profile = [
     'title' => 'Managing/Principal Partner',
-    'name' => 'K. H Bamiwola Esq.',
+    'name' => 'Kehinde Bamiwola Esq. Fellow, ILCS',
     'image' => '../assets/images/bamiwola.png',
     'image_alt' => 'K. H Bamiwola',
     'education' => [
@@ -43,8 +43,9 @@
     ],
     'memberships' => [
       'Nigerian Bar Association (NBA)',
+      'Fellow, Institute of Leadership, Coaching and Strategy',
       'Former Legal Adviser, NBA Ilaro Branch',
-      'Vice-Chairman, Ilaro Bar',
+      'Former Vice-Chairman, NBA',
       'Chairman, Continuing Legal Education Committee (CLE) NBA, ilaro'
     ],
     'practice_areas' => [
@@ -54,7 +55,7 @@
       'Chieftaincy Matters',
       'Intellectual Property Law',
     ],
-    'bio' => '<p><strong>K. H Bamiwola Esq.</strong> is an expert in Human Rights, Commercial Law, Property Law, Intellectual Property Law and Labour Law. He is a part-time Lecturer in A\' level Cambridge Law. He is also a Labour Law and Business Law Examiner to Professional Bodies in Nigeria.</p><p>He is a Researcher, Writer, Orator and an Instructor on the use of advocacy and panache in case presentation in Courts. He was a former Research Assistant to Prof. Chioma Kanu Agomo, an erudite Professor of Law at the University of Lagos. He is well published locally and internationally. Some of his articles have been published by the International Labour Organization (ILO) Geneva. He is the Commissioned Author of the Nigerian Labour Law textbook/Study manual of the Chartered Institute of Personnel Management of Nigeria. He combines legal practice with academics.</p><p>He is a Public Analyst on critical National and International issues on Radio and Television programmes. He is a Legal Consultant to many Trade Unions in Nigeria. He is a member of the Nigerian Bar Association, formerly the Legal Adviser of NBA Ilaro Branch and currently the Vice-Chairman of Ilaro Bar.</p><p>He was formerly the Vice Chairman of the NBA Ilaro Branch and presently the Chairman of the Continuing Education Committee of the Branch. He is the author of two new texts, \'Practical Approach to Labour Law in Nigeria\' and \'Logic for Critical Thinking and Cross-examination\'; the duo were published by the University of Lagos Press. The books are currently in high demand by HR Professionals, Legal Practitioners, Judges, Investigators and Students in Nigeria and beyond.</p>',
+    'bio' => '<p><strong>Kehinde Bamiwola Esq. Fellow, ILCS</strong> is an expert in Human Rights, Commercial Law, Property Law, Intellectual Property Law and Labour Law. He is a part-time Lecturer in A\' level Cambridge Law. He is also a Labour Law and Business Law Examiner to Professional Bodies in Nigeria.</p><p>He is a Researcher, Writer, Orator and an Instructor on the use of advocacy and panache in case presentation in Courts. He was a former Research Assistant to Prof. Chioma Kanu Agomo, an erudite Professor of Law at the University of Lagos. He is well published locally and internationally. Some of his articles have been published by the International Labour Organization (ILO) Geneva. He is the Commissioned Author of the Nigerian Labour Law textbook/Study manual of the Chartered Institute of Personnel Management of Nigeria. He combines legal practice with academics.</p><p>He is a Public Analyst on critical National and International issues on Radio and Television programmes. He is a Legal Consultant to many Trade Unions in Nigeria. He is a member of the Nigerian Bar Association, formerly the Legal Adviser of NBA Ilaro Branch and currently the Vice-Chairman of Ilaro Bar.</p><p>He was formerly the Vice Chairman of the NBA Ilaro Branch and presently the Chairman of the Continuing Education Committee of the Branch. He is the author of two new texts, \'Practical Approach to Labour Law in Nigeria\' and \'Logic for Critical Thinking and Cross-examination\'; the duo were published by the University of Lagos Press. The books are currently in high demand by HR Professionals, Legal Practitioners, Judges, Investigators and Students in Nigeria and beyond.</p>',
     'current_slug' => 'kehinde-bamiwola',
   ];
   include ROOT_PATH . '/app/includes/team-profile-layout.php';

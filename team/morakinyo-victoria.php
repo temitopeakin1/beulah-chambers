@@ -44,6 +44,7 @@
       'B.L (Nigerian Law School)',
     ],
     'memberships' => [
+      'Nigerian Bar Association (NBA)',
       'Institute of Chartered Mediators and Conciliators (ICMC)',
       'International Law Association (Nigeria Chapter)',
     ],
@@ -54,7 +55,7 @@
       'Corporate Law Practice',
       'Dispute Resolution',
     ],
-    'bio' => '<p><strong>Morakinyo, Victoria Afolake, AICMC, Esq.</strong> holds an LL.B from Obafemi Awolowo University and a B.L. from the Nigerian Law School. She currently heads the Corporate Department at K.H. Bamiwola & Co. (Beulah Chambers).</p><p>Victoria is a distinguished Associate of the Institute of Chartered Mediators and Conciliators and she is also a member of the International Law Association (Nigeria Chapter).</p><p>Victoria is a dedicated legal practitioner with an unwavering commitment to excellence. She excels at delivering tailored and timely solutions to clients\' varied needs and she embraces a meticulous approach in tackling complex legal challenges.</p><p>Victoria is enthusiastic about Labour and Employment Matters, Litigation, Legal Research, Corporate Law Practice and Dispute Resolution.</p><p>During her leisure time, Victoria reads African Literature and enjoys spending quality moments with her friends and family.</p>',
+    'bio' => '<p><strong>Morakinyo, Victoria Afolake, AICMC, Esq.</strong> is a Senior Associate Counsel at Beulah Chambers (K.H Bamiwola & Co). She holds an LL.B from Obafemi Awolowo University and a B.L. from the Nigerian Law School. She currently heads the Corporate Department at K.H. Bamiwola & Co. (Beulah Chambers).</p><p>Victoria is a distinguished Associate of the Institute of Chartered Mediators and Conciliators and she is also a member of the International Law Association (Nigeria Chapter).</p><p>Victoria is a dedicated legal practitioner with an unwavering commitment to excellence. She excels at delivering tailored and timely solutions to clients\' varied needs and she embraces a meticulous approach in tackling complex legal challenges.</p><p>Victoria is enthusiastic about Labour and Employment Matters, Litigation, Legal Research, Corporate Law Practice and Dispute Resolution.</p><p>During her leisure time, Victoria reads African Literature and enjoys spending quality moments with her friends and family.</p>',
     'current_slug' => 'morakinyo-victoria',
   ];
   include ROOT_PATH . '/app/includes/team-profile-layout.php';

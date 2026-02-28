@@ -28,6 +28,7 @@ $pa_base = $header_base ? '../practice-areas/' : 'practice-areas/';
               <li><a href="<?php echo $pa_base; ?>election-petitions.php">Election Petitions</a></li>
               <li><a href="<?php echo $pa_base; ?>criminal-law.php">Criminal Law</a></li>
               <li><a href="<?php echo $pa_base; ?>banking-and-debt-recovery.php">Banking & Debt Recovery</a></li>
+              <li><a href="<?php echo $pa_base; ?>real-estate-land.php">Real Estate & Land Matters</a></li>
             </ul>
           </li>
                     <li class="nav__item"><a href="<?php echo $header_base; ?>articles.php" class="nav__link">Articles</a></li>
