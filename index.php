@@ -18,11 +18,7 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Favicon -->
-    <link rel="shortcut icon"
-      href="assets/images/favicon.ico"
-      type="image/x-icon"
-    />
+    <?php include ROOT_PATH . '/app/includes/favicon.php'; ?>
   </head>
 
 <body>

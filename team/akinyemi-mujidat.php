@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link
-      rel="shortcut icon"
-      href="../assets/images/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicon-192.png">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
   </head>
 
 <body>

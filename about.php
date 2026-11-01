@@ -26,12 +26,7 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
-    <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.ico"
-      type="image/x-icon"
-    />
+    <?php include ROOT_PATH . '/app/includes/favicon.php'; ?>
   </head>
 
 <body>

@@ -17,11 +17,10 @@
       type="text/javascript"
     ></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link
-      rel="shortcut icon"
-      href="../assets/images/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicon-192.png">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
   </head>
 
 <body>

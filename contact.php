@@ -21,12 +21,7 @@
     ></script>
     <!-- Latest compiled JavaScript -->
 
-    <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.ico"
-      type="image/x-icon"
-    />
+    <?php include ROOT_PATH . '/app/includes/favicon.php'; ?>
   </head>
 
 <body>
