@@ -53,7 +53,7 @@
       <div class="col">
         <div class="container">
             <div class="left">
-              <img src="assets/images/about_images1.jpg">
+              <img src="assets/images/group-photo.jpg" alt="Beulah Chambers team group photo">
             </div>
             <div class="right">
               <h2><i class="fas fa-balance-scale"></i> About Us</h2>

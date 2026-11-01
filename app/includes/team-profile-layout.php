@@ -13,7 +13,7 @@ $practice_areas = isset($profile['practice_areas']) ? $profile['practice_areas']
 
     <div class="partner-profile__row">
       <div class="partner-profile__left">
-        <div class="partner-profile__photo">
+        <div class="partner-profile__photo<?php echo !empty($profile['photo_align']) ? ' partner-profile__photo--' . htmlspecialchars($profile['photo_align']) : ''; ?>">
           <img src="<?php echo htmlspecialchars($profile['image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($profile['image_alt'] ?? $profile['name'] ?? ''); ?>">
         </div>
       </div>
