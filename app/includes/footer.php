@@ -21,7 +21,7 @@
          <ul>
              <li><a href="<?php echo BASE_URL; ?>/">Home</a></li>
              <li><a href="<?php echo BASE_URL; ?>/about">About</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/team">Team</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/team/">Team</a></li>
              <li><a href="<?php echo BASE_URL; ?>/practice-areas/labour-law">Labour Law</a></li>
              <li><a href="<?php echo BASE_URL; ?>/practice-areas/commercial-law">Commercial Law</a></li>
              <li><a href="<?php echo BASE_URL; ?>/practice-areas/intellectual-property">Intellectual Property Law</a></li>

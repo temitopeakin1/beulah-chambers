@@ -1,21 +1,35 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /
 
-# Don't rewrite existing files or directories
-RewriteCond %{REQUEST_FILENAME} -d [OR]
+# When a folder is requested without "/", add the slash (needed for /team → /team/)
+DirectorySlash On
+
+# Hide directory listings
+Options -Indexes
+
+# --------------------------------------------------
+# Real files — leave alone
+# --------------------------------------------------
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# Redirect /index.php → /
-RewriteRule ^index\.php$ / [R=301,L]
+# --------------------------------------------------
+# Redirect /index.php → folder root
+# --------------------------------------------------
+RewriteCond %{THE_REQUEST} /index\.php[\s?] [NC]
+RewriteRule ^index\.php$ ./ [R=301,L]
 
-# Redirect any .php URL to extensionless (keep query string)
-# Skip admin (optional: remove next 2 lines if you want clean admin URLs too)
-RewriteCond %{REQUEST_URI} !^/admin/
-RewriteRule ^(.+)\.php$ /$1 [R=301,L]
+# --------------------------------------------------
+# Redirect visible *.php → extensionless (skip admin)
+# --------------------------------------------------
+RewriteCond %{THE_REQUEST} \s[^\s]*?\.php[\s?] [NC]
+RewriteCond %{REQUEST_URI} !/admin/ [NC]
+RewriteRule ^(.+)\.php$ $1 [R=301,L]
 
-# Internally serve extensionless URLs as .php files
+# --------------------------------------------------
+# Extensionless → .php when matching file exists
+# (does not apply to /team/ — that uses team/index.php)
+# --------------------------------------------------
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [L]
 </IfModule>

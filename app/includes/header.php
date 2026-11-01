@@ -32,7 +32,7 @@ $pa_base = $header_base ? '../practice-areas/' : 'practice-areas/';
             </ul>
           </li>
                     <li class="nav__item"><a href="<?php echo $header_base; ?>articles" class="nav__link">Articles</a></li>
-                    <li class="nav__item"><a href="<?php echo $header_base; ?>team" class="nav__link">Team</a></li>
+                    <li class="nav__item"><a href="<?php echo $header_base; ?>team/">Team</a></li>
                     <li class="nav__item"><a href="<?php echo $header_base; ?>contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
