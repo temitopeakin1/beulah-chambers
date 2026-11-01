@@ -19,15 +19,15 @@
      <div class="footer-section links">
          <h2>Quick Links</h2>
          <ul>
-             <li><a href="<?php echo BASE_URL; ?>/index.php">Home</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/about.php">About</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/team.php">Team</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/practice-areas/labour-law.php">Labour Law</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/practice-areas/commercial-law.php">Commercial Law</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/practice-areas/intellectual-property.php">Intellectual Property Law</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/practice-areas/family-law.php">Family Law</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/practice-areas/arbitration.php">Arbitration</a></li>
-             <li><a href="<?php echo BASE_URL; ?>/articles.php">Articles</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/">Home</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/about">About</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/team">Team</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/labour-law">Labour Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/commercial-law">Commercial Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/intellectual-property">Intellectual Property Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/family-law">Family Law</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/practice-areas/arbitration">Arbitration</a></li>
+             <li><a href="<?php echo BASE_URL; ?>/articles">Articles</a></li>
          </ul>
      </div> 
  <div class="footer-section contact-form">

@@ -59,7 +59,7 @@ $practice_areas = isset($profile['practice_areas']) ? $profile['practice_areas']
     <div class="partner-profile__others">
       <div class="partner-profile__others-list">
         <?php foreach ($TEAM_MEMBERS_LIST as $m) : if ($m['slug'] === $current) continue; ?>
-        <a href="<?php echo htmlspecialchars($team_base . $m['slug'] . '.php'); ?>" class="partner-profile__other-link"><?php echo htmlspecialchars($m['name']); ?></a>
+        <a href="<?php echo htmlspecialchars($team_base . $m['slug']); ?>" class="partner-profile__other-link"><?php echo htmlspecialchars($m['name']); ?></a>
         <?php endforeach; ?>
       </div>
     </div>

@@ -36,43 +36,43 @@
   <!-- Begin: Hero slider (4 slides) -->
   <div class="hero-slider">
     <div class="hero-slider__track">
-      <div class="hero-slide hero-slide--1 active" style="background-image: url('assets/css/law-image.jpg');" data-heading="Commercial Law" data-desc="Expert guidance on business law, contracts, and commercial disputes" data-btn="Learn More" data-href="practice-areas/commercial-law.php">
+      <div class="hero-slide hero-slide--1 active" style="background-image: url('assets/css/law-image.jpg');" data-heading="Commercial Law" data-desc="Expert guidance on business law, contracts, and commercial disputes" data-btn="Learn More" data-href="practice-areas/commercial-law">
         <div class="hero-slide__overlay"></div>
         <div class="hero-slide__content">
           <h2 class="hero-slide__heading">Commercial Law</h2>
           <p class="hero-slide__desc">Expert guidance on business law, contracts, and commercial disputes</p>
-          <a href="practice-areas/commercial-law.php" class="hero-slide__btn">Learn More</a>
+          <a href="practice-areas/commercial-law" class="hero-slide__btn">Learn More</a>
         </div>
       </div>
-      <div class="hero-slide hero-slide--2" style="background-image: url('assets/css/law.jpg');" data-heading="Arbitration" data-desc="Resolving disputes efficiently and fairly through expert mediation" data-btn="About Us" data-href="about.php">
+      <div class="hero-slide hero-slide--2" style="background-image: url('assets/css/law.jpg');" data-heading="Arbitration" data-desc="Resolving disputes efficiently and fairly through expert mediation" data-btn="About Us" data-href="about">
         <div class="hero-slide__overlay"></div>
         <div class="hero-slide__content">
           <h2 class="hero-slide__heading">Arbitration</h2>
           <p class="hero-slide__desc">Resolving disputes efficiently and fairly through expert mediation</p>
-          <a href="about.php" class="hero-slide__btn">About Us</a>
+          <a href="about" class="hero-slide__btn">About Us</a>
         </div>
       </div>
-      <div class="hero-slide hero-slide--3" style="background-image: url('assets/css/slide-3.jpg');" data-heading="Labour Law" data-desc="Protecting workers' rights and advising employers on employment compliance" data-btn="Learn More" data-href="practice-areas/labour-law.php">
+      <div class="hero-slide hero-slide--3" style="background-image: url('assets/css/slide-3.jpg');" data-heading="Labour Law" data-desc="Protecting workers' rights and advising employers on employment compliance" data-btn="Learn More" data-href="practice-areas/labour-law">
         <div class="hero-slide__overlay"></div>
         <div class="hero-slide__content">
           <h2 class="hero-slide__heading">Labour Law</h2>
           <p class="hero-slide__desc">Protecting workers' rights and advising employers on employment compliance</p>
-          <a href="practice-areas/labour-law.php" class="hero-slide__btn">Learn More</a>
+          <a href="practice-areas/labour-law" class="hero-slide__btn">Learn More</a>
         </div>
       </div>
-      <div class="hero-slide hero-slide--4" style="background-image: url('assets/css/slide-2.jpg');" data-heading="Human Rights Law" data-desc="Championing dignity, equality, and access to justice for all" data-btn="Learn More" data-href="practice-areas/human-rights.php">
+      <div class="hero-slide hero-slide--4" style="background-image: url('assets/css/slide-2.jpg');" data-heading="Human Rights Law" data-desc="Championing dignity, equality, and access to justice for all" data-btn="Learn More" data-href="practice-areas/human-rights">
         <div class="hero-slide__overlay"></div>
         <div class="hero-slide__content">
           <h2 class="hero-slide__heading">Human Rights Law</h2>
           <p class="hero-slide__desc">Championing dignity, equality, and access to justice for all</p>
-          <a href="practice-areas/human-rights.php" class="hero-slide__btn">Learn More</a>
+          <a href="practice-areas/human-rights" class="hero-slide__btn">Learn More</a>
         </div>
       </div>
     </div>
     <div class="hero-slider__caption">
       <h2 class="hero-slide__heading" id="hero-caption-heading">Commercial Law</h2>
       <p class="hero-slide__desc" id="hero-caption-desc">Expert guidance on business law, contracts, and commercial disputes</p>
-      <a href="practice-areas/commercial-law.php" class="hero-slide__btn" id="hero-caption-btn">Learn More</a>
+      <a href="practice-areas/commercial-law" class="hero-slide__btn" id="hero-caption-btn">Learn More</a>
     </div>
     <button type="button" class="hero-slider__prev" aria-label="Previous slide">&lsaquo;</button>
     <button type="button" class="hero-slider__next" aria-label="Next slide">&rsaquo;</button>
@@ -143,7 +143,7 @@
         <h2>Practice Areas</h2>
         <div class="card-container">
         <div class="card_practice-1">
-          <a href="practice-areas/labour-law.php" class="card-link">
+          <a href="practice-areas/labour-law" class="card-link">
             <img src="assets/images/labour-law.jpg" alt="Image" class="card-image">   
         <div class="card-overlayy">
           <div class="overlay-content">
@@ -156,7 +156,7 @@
       </a>
         </div>
           <div class="card_practice-2">
-          <a href="practice-areas/arbitration.php" class="card-link">
+          <a href="practice-areas/arbitration" class="card-link">
             <img src="assets/images/arbitration.jpg" alt="Image" class="card-image">   
         <div class="card-overlayyy">
           <div class="overlay-content">
@@ -169,7 +169,7 @@
       </a>
         </div>
           <div class="card_practice-3">
-          <a href="practice-areas/human-rights.php" class="card-link">
+          <a href="practice-areas/human-rights" class="card-link">
             <img src="assets/images/human-rights.jpg" alt="Image" class="card-image">   
         <div class="card-overlay">
           <div class="overlay-content">
@@ -182,7 +182,7 @@
       </a>
         </div>
           <div class="card_practice-4">
-          <a href="practice-areas/intellectual-property.php" class="card-link">
+          <a href="practice-areas/intellectual-property" class="card-link">
             <img src="assets/images/intellectual.jpg" alt="Image" class="card-image">   
         <div class="card-overlayy">
           <div class="overlay-content">
@@ -195,7 +195,7 @@
       </a>
         </div>
           <div class="card_practice-5">
-          <a href="practice-areas/commercial-law.php" class="card-link">
+          <a href="practice-areas/commercial-law" class="card-link">
             <img src="assets/images/commercial.jpg" alt="Image" class="card-image">   
         <div class="card-overlayyy">
           <div class="overlay-content">
@@ -208,7 +208,7 @@
       </a>
         </div>
         <div class="card_practice-6">
-          <a href="practice-areas/banking-and-debt-recovery.php" class="card-link">
+          <a href="practice-areas/banking-and-debt-recovery" class="card-link">
             <img src="assets/images/debt.jpg" alt="Image" class="card-image">   
         <div class="card-overlay">
           <div class="overlay-content">
@@ -256,7 +256,7 @@
                 involving breach of fiduciary duty.
               </li>
               <li>
-                We donâ€™t just litigate trust and intellectual property cases, Because we also draft 
+                We don’t just litigate trust and intellectual property cases, Because we also draft 
                 comprehensive plans, we understand how the the process should work, 
                 and therefore are in a better position to attack or defend an intellectual property case when litigation arises.
               </li>

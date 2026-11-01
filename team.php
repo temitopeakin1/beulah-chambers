@@ -36,7 +36,7 @@
         $img = $member['image'] ?? '';
         $title = $member['title'] ?? '';
       ?>
-      <a href="team/<?php echo htmlspecialchars($member['slug']); ?>.php" class="team-page-card">
+      <a href="team/<?php echo htmlspecialchars($member['slug']); ?>" class="team-page-card">
         <div class="team-page-card__inner">
           <div class="team-page-card__front">
             <div class="team-page-card__image">
