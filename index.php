@@ -112,7 +112,7 @@
     <section class="second-section_home">
       <div class="container-fluid white section ptb--10">
         <div class="row">
-          <div class="container">
+          <div class="container highlight-cards">
             <div class="card">
               <h2><i class="fas fa-trophy"></i>100% Percent Success Rate</h2>
               <p class="text">
@@ -183,7 +183,7 @@
         </div>
           <div class="card_practice-4">
           <a href="practice-areas/intellectual-property" class="card-link">
-            <img src="assets/images/intellectual.jpg" alt="Image" class="card-image">   
+            <img src="assets/images/intellectual.jpg" alt="Intellectual Property Law" class="card-image">   
         <div class="card-overlayy">
           <div class="overlay-content">
             <i class="fas fa-balance-scale fa-3x"></i>
@@ -256,9 +256,7 @@
                 involving breach of fiduciary duty.
               </li>
               <li>
-                We don’t just litigate trust and intellectual property cases, Because we also draft 
-                comprehensive plans, we understand how the the process should work, 
-                and therefore are in a better position to attack or defend an intellectual property case when litigation arises.
+                We don't just litigate trust and intellectual property cases. Because we also draft comprehensive plans, we understand how the process should work, and are therefore in a better position to attack or defend an intellectual property case when litigation arises.
               </li>
               <li>
                 Reasonable Fees. Years of experiences. let our Professionals Work on your Legal needs

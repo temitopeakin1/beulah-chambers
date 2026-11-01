@@ -1,37 +1,80 @@
-// Begin: mobile nav logic
-const showMobileNav = (toggleId, navId) => {
-	const toggle = document.getElementById(toggleId);
-	const nav = document.getElementById(navId);
+// Begin: mobile chambers nav
+(function initChambersMobileNav() {
+  var toggle = document.getElementById('nav-toggle');
+  var nav = document.getElementById('nav-menu');
+  var backdrop = document.getElementById('nav-backdrop');
+  var practiceToggle = document.getElementById('nav-practice-toggle');
+  var practiceItem = document.querySelector('.nav__item--practice');
+  if (!toggle || !nav) return;
 
-	if (toggle && nav) {
-		let scrollY = 0;
-		toggle.addEventListener('click', () => {
-			const isOpen = !nav.classList.contains('show');
-			if (isOpen) {
-				scrollY = window.scrollY || window.pageYOffset;
-			} else {
-				requestAnimationFrame(() => { window.scrollTo(0, scrollY); });
-			}
-			toggle.classList.toggle('rotate', isOpen);
-			nav.classList.toggle('show', isOpen);
-			document.body.classList.toggle('nav-open', isOpen);
-			document.documentElement.classList.toggle('nav-open', isOpen);
-		});
-	}
-};
-showMobileNav('nav-toggle', 'nav-menu');
+  var scrollY = 0;
 
-const navLink = document.querySelectorAll('.nav__link');
+  function setOpen(isOpen) {
+    toggle.classList.toggle('rotate', isOpen);
+    nav.classList.toggle('show', isOpen);
+    document.body.classList.toggle('nav-open', isOpen);
+    document.documentElement.classList.toggle('nav-open', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    toggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    nav.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    if (backdrop) {
+      backdrop.classList.toggle('is-visible', isOpen);
+      backdrop.hidden = !isOpen;
+    }
+    if (!isOpen && practiceItem) {
+      practiceItem.classList.remove('is-open');
+      if (practiceToggle) practiceToggle.setAttribute('aria-expanded', 'false');
+    }
+  }
 
-function linkAction() {
-  navLink.forEach(n => n.classList.remove('active'));
-  this.classList.add('active');
-  const navMenu = document.getElementById('nav-menu');
-  if (navMenu) navMenu.classList.remove('show');
-  document.body.classList.remove('nav-open');
-  document.documentElement.classList.remove('nav-open');
-}
-navLink.forEach(n => n.addEventListener('click', linkAction));
+  function openMenu() {
+    scrollY = window.scrollY || window.pageYOffset;
+    setOpen(true);
+  }
+
+  function closeMenu() {
+    setOpen(false);
+    requestAnimationFrame(function () {
+      window.scrollTo(0, scrollY);
+    });
+  }
+
+  toggle.addEventListener('click', function () {
+    if (nav.classList.contains('show')) closeMenu();
+    else openMenu();
+  });
+
+  if (backdrop) {
+    backdrop.addEventListener('click', closeMenu);
+  }
+
+  if (practiceToggle && practiceItem) {
+    practiceToggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      // Desktop uses hover; only accordion on small screens
+      if (window.matchMedia('(max-width: 767px)').matches) {
+        var open = !practiceItem.classList.contains('is-open');
+        practiceItem.classList.toggle('is-open', open);
+        practiceToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      }
+    });
+  }
+
+  nav.querySelectorAll('a.nav__link, .nav__practice-list a, .nav__menu-cta').forEach(function (link) {
+    link.addEventListener('click', function () {
+      nav.querySelectorAll('.nav__link').forEach(function (n) {
+        n.classList.remove('active');
+      });
+      if (link.classList.contains('nav__link')) link.classList.add('active');
+      closeMenu();
+    });
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && nav.classList.contains('show')) closeMenu();
+  });
+})();
 
 // End: mobile nav
 

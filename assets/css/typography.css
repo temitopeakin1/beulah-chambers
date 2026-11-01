@@ -359,6 +359,61 @@
     padding: 150px 0
 }
 
+/* Mobile: tighten & unify vertical section padding */
+@media screen and (max-width: 991px) {
+  .ptb--10 {
+    padding: 0.4rem 0;
+  }
+  .ptb--20 {
+    padding: 0.65rem 0;
+  }
+  .ptb--30 {
+    padding: 0.85rem 0;
+  }
+  .ptb--40 {
+    padding: 1rem 0;
+  }
+  .ptb--50 {
+    padding: var(--section-y-sm, 1.25rem) 0;
+  }
+  .ptb--60,
+  .ptb--70 {
+    padding: 1.5rem 0;
+  }
+  .ptb--80,
+  .ptb--90 {
+    padding: 1.75rem 0;
+  }
+  .ptb--100,
+  .ptb--110,
+  .ptb--120,
+  .ptb--130,
+  .ptb--140,
+  .ptb--150 {
+    padding: var(--section-y, 2rem) 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ptb--50 {
+    padding: 1rem 0;
+  }
+  .ptb--60,
+  .ptb--70,
+  .ptb--80,
+  .ptb--90 {
+    padding: 1.15rem 0;
+  }
+  .ptb--100,
+  .ptb--110,
+  .ptb--120,
+  .ptb--130,
+  .ptb--140,
+  .ptb--150 {
+    padding: var(--section-y, 1.5rem) 0;
+  }
+}
+
 
 /*---------------------------
    Page section margin 
